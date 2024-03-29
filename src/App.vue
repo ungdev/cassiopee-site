@@ -1,10 +1,10 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import Navbar from './Components/Navbar.vue'
-import Timer from './Components/Timer.vue'
-import VerticalCard from './Components/VerticalCard.vue';
-import TextAndImageLeft from './Components/TextAndImageLeft.vue';
-import TextAndImageRight from './Components/TextAndImageRight.vue';
+import Navbar from '@/Components/Navbar.vue'
+import Timer from '@/Components/Timer.vue'
+import VerticalCard from '@/Components/VerticalCard.vue';
+import TextAndImageLeft from '@/Components/TextAndImageLeft.vue';
+import TextAndImageRight from '@/Components/TextAndImageRight.vue';
 </script>
 
 <template>
