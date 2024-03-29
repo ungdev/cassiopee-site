@@ -6,17 +6,22 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home  <span class="sr-only">(current)</span></a>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" aria-haspopup="true" aria-expanded="true" data-toggle="dropdown" href="#">Après-Midi</a>
+            <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">Action</a>
+                <a href="#" class="dropdown-item">Another action</a>
+            </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#aprem">Après-Midi</a>
+            <a class="nav-link" href="#soiree">Soirée</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#soirée">Soirée</a>
+            <a class="nav-link" href="#apropos">A propos</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" type="button" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
               Dropdown link
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">

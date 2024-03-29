@@ -87,7 +87,7 @@ import TextAndImageRight from '@/Components/TextAndImageRight.vue';
       </div>
     </div>
     
-    <div id="soirée">
+    <div id="soiree">
       <br>
       <VerticalCard />
     </div>
