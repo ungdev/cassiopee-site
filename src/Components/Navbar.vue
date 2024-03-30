@@ -32,7 +32,7 @@
 
 <style scoped>
 nav{
-  background-color: #f8f9fa;
+  background-color: #252655;
 
 }
 #nav-logo {
