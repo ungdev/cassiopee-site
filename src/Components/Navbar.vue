@@ -10,8 +10,10 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" aria-haspopup="true" aria-expanded="true" data-toggle="dropdown" href="#">Après-Midi</a>
             <div class="dropdown-menu">
-                <a href="#" class="dropdown-item">Action</a>
-                <a href="#" class="dropdown-item">Another action</a>
+                <a href="#" class="dropdown-item">Les stand</a>
+                <a href="#" class="dropdown-item">La nourriture</a>
+                <a href="#" class="dropdown-item">Les boissons</a>
+
             </div>
           </li>
           <li class="nav-item">
@@ -20,15 +22,9 @@
           <li class="nav-item">
             <a class="nav-link" href="#apropos">A propos</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" type="button" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-              Dropdown link
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.billetweb.fr/cassiopee-2024" target="_blank" >Billeterie</a>
+            
           </li>
         </ul>
       </div>
