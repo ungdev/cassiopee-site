@@ -46,6 +46,7 @@
   right: 0;
   top: 0;
   z-index: 1000;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
 }
 
 #nav-logo {
