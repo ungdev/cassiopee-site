@@ -174,6 +174,10 @@ import Book from './Components/Book.vue';
       </div>
     </div>
     
+    <div id="soiree">
+      <br>
+      <VerticalCard />
+    </div>
   </body>
 </template>
 
