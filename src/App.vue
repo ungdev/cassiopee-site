@@ -175,6 +175,10 @@ import CopilotBook from './Components/CopilotBook.vue';
       </div>
     </div>
     
+    <div id="soiree">
+      <br>
+      <VerticalCard />
+    </div>
   </body>
 </template>
 
