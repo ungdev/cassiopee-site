@@ -5,3 +5,11 @@
   box-sizing: border-box;
   
 }
+@font-face {
+  font-family: 'tan meringue';
+  src: url('@/assets/TAN_Meringue/TAN Meringue/TAN MERINGUE.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'deuxieme rang';
+  src: url('@/assets/deuxieme_rang/Deuxieme_Rang.otf') format('opentype');
+}
