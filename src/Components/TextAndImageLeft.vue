@@ -1,4 +1,5 @@
 <script setup>
+    import { defineProps } from 'vue'
     defineProps({
         msg: {
             type: String,
@@ -6,17 +7,17 @@
         },
         image: {
             type: String,
-            required: false,
-            default: "../assets/Logo.png"
+            default: "../assets/graphisme/Avion rouge.png"
         }
     })
+
 </script>
 
 <template>
     <div>
         <div class="textArea">
         <div class="image-container">
-            <img src="../assets/Logo.png" width="200px" alt="Image" />
+            <img :src="image" width="200px" alt="Image" />
         </div>
         <div class="text-container">
             <p style="color: aliceblue;">{{ msg }}</p>

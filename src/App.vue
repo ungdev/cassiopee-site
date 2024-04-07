@@ -6,6 +6,7 @@ import VerticalCard from './Components/VerticalCard.vue';
 import TextAndImageLeft from './Components/TextAndImageLeft.vue';
 import TextAndImageRight from './Components/TextAndImageRight.vue';
 import Book from './Components/Book.vue';
+import CopilotBook from './Components/CopilotBook.vue';
 
 </script>
 
@@ -29,7 +30,7 @@ import Book from './Components/Book.vue';
           restauration et de quoi vous désaltérer !⭐️ une soirée avec de la musique dans tous 
           les coins et pour tous les goûts, des stands de restauration, un feu d’artifice et encore
            pleins de surprises !"
-           image="./assets/graphisme/Etoile.png"></TextAndImageLeft>
+           ></TextAndImageLeft>
 
       <div style="width: 100%; display: flex; align-items: flex-end;">
         <h1 style="color: aliceblue; margin-left: 5%">A propos de l'après-midi</h1>
@@ -102,7 +103,7 @@ import Book from './Components/Book.vue';
         <h1 class="title">Artistes</h1>
       </div>
       <div>
-        <Book/>
+        <CopilotBook/>
       </div>
       <div style="width: 100%; display: flex; align-items: flex-end;">
         <h1 style="color: aliceblue;">A propos de la soirée</h1>
@@ -116,7 +117,7 @@ import Book from './Components/Book.vue';
 
       <div class="text-container">
         <div style="width: 100%; display: flex;">
-        <h2 style="color: aliceblue; position: relative; left: 80%;">Lorem Ipsum</h2>
+        <h2 class="right-title">Lorem Ipsum</h2>
       </div>
       <TextAndImageLeft msg="Cassiopée est un festival incontournable qui a lieu une fois
        par an au cœur de l’Université de Technologie de Troyes.Cette année Cassiopée se réinvente
@@ -137,7 +138,7 @@ import Book from './Components/Book.vue';
 
       <div class="text-container">
         <div style="width: 100%; display: flex;">
-        <h2 style="color: aliceblue; position: relative; left: 80%;">Lorem Ipsum</h2>
+        <h2 class="right-title">Lorem Ipsum</h2>
       </div>
       <TextAndImageLeft msg="Cassiopée est un festival incontournable qui a lieu une fois
        par an au cœur de l’Université de Technologie de Troyes.Cette année Cassiopée se réinvente
@@ -186,54 +187,75 @@ import Book from './Components/Book.vue';
     padding: 10px;
     width: 70%;
   }
-  .right-title {
+.right-title {
+  color: aliceblue;
+  position: relative;
+  left: 80%;
+}
+#trombi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width:90%;
+  
+}
+#trombi img{
+  width: 50%;
+  height: 50%;
+  margin: 10px;
+}
+#flip{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+body {
+  background-color: #f8f9fa;
+}
+#aprem {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #4452ad;
+}
+#grad {
+background-image: linear-gradient(#4452ad, #252655);
+min-height: 15vh;
+}
+#soirée {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  min-height: 100vh;
+  
+  background-color: #252655;
+}
+@media (max-width: 1000px) {  
+  .text-container {
+    width: 100%;
+  }
+  .right-title{
     color: aliceblue;
     position: relative;
-    left: 80%;
+    left:5%;
   }
-  #trombi {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    width:90%;
-    
+}
+@media (max-width: 500px) {  
+  .text-container {
+    width: 95%;
   }
-  #trombi img{
-    width: 50%;
-    height: 50%;
-    margin: 10px;
+  .right-title{
+    color: aliceblue;
+    position: relative;
+    left:5%;
   }
-  #flip{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-  body {
-    background-color: #f8f9fa;
-  }
-  #aprem {
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #4452ad;
-  }
-  #grad {
-  background-image: linear-gradient(#4452ad, #252655);
-  min-height: 15vh;
-  }
-  #soirée {
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-    min-height: 100vh;
-    
-    background-color: #252655;
-  }
+
+}
 </style>
