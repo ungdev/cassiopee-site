@@ -7,7 +7,7 @@
         },
         image: {
             type: String,
-            default: "../assets/graphisme/Avion rouge.png"
+            default: "src//assets//graphisme//Avion rouge.png"
         }
     })
 
