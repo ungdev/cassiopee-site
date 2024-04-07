@@ -1,11 +1,9 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
 import Navbar from './Components/Navbar.vue'
 import Timer from './Components/Timer.vue'
 import VerticalCard from './Components/VerticalCard.vue';
 import TextAndImageLeft from './Components/TextAndImageLeft.vue';
 import TextAndImageRight from './Components/TextAndImageRight.vue';
-import Book from './Components/Book.vue';
 import CopilotBook from './Components/CopilotBook.vue';
 
 </script>
@@ -40,7 +38,14 @@ import CopilotBook from './Components/CopilotBook.vue';
         <div style="width: 100%; display: flex; align-items: flex-end;">
           <h2 style="color: aliceblue;">Lorem Ipsum</h2>
         </div>
-        <TextAndImageRight></TextAndImageRight>
+        <TextAndImageRight msg="Cassiopée est un festival incontournable qui a lieu une fois
+       par an au cœur de l’Université de Technologie de Troyes.Cette année Cassiopée se réinvente
+        et consiste en :☀️ une après-midi pour promouvoir la vie étudiante et les activités de l’UTT
+         dans laquelle vous retrouverez des stands de vulgarisation scientifique, de présentation de
+          nos associations et pleins d’autres activités ludiques sans oublier les stands de 
+          restauration et de quoi vous désaltérer !⭐️ une soirée avec de la musique dans tous 
+          les coins et pour tous les goûts, des stands de restauration, un feu d’artifice et encore
+           pleins de surprises !"></TextAndImageRight>
       </div>
 
       <div class="text-container">
@@ -61,7 +66,14 @@ import CopilotBook from './Components/CopilotBook.vue';
         <div style="width: 100%; display: flex; align-items: flex-end;">
           <h2 style="color: aliceblue;">Lorem Ipsum</h2>
         </div>
-        <TextAndImageRight></TextAndImageRight>
+        <TextAndImageRight msg="Cassiopée est un festival incontournable qui a lieu une fois
+       par an au cœur de l’Université de Technologie de Troyes.Cette année Cassiopée se réinvente
+        et consiste en :☀️ une après-midi pour promouvoir la vie étudiante et les activités de l’UTT
+         dans laquelle vous retrouverez des stands de vulgarisation scientifique, de présentation de
+          nos associations et pleins d’autres activités ludiques sans oublier les stands de 
+          restauration et de quoi vous désaltérer !⭐️ une soirée avec de la musique dans tous 
+          les coins et pour tous les goûts, des stands de restauration, un feu d’artifice et encore
+           pleins de surprises !"></TextAndImageRight>
       </div>
 
       <div class="text-container">
@@ -102,7 +114,7 @@ import CopilotBook from './Components/CopilotBook.vue';
       <div style="width: 100%; display: flex; align-items: left;">
         <h1 class="title">Artistes</h1>
       </div>
-      <div>
+      <div style="width: 100%;">
         <CopilotBook/>
       </div>
       <div style="width: 100%; display: flex; align-items: flex-end;">
@@ -112,7 +124,14 @@ import CopilotBook from './Components/CopilotBook.vue';
         <div style="width: 100%; display: flex; align-items: flex-end;">
           <h2 style="color: aliceblue;">Lorem Ipsum</h2>
         </div>
-        <TextAndImageRight></TextAndImageRight>
+        <TextAndImageRight msg="Cassiopée est un festival incontournable qui a lieu une fois
+       par an au cœur de l’Université de Technologie de Troyes.Cette année Cassiopée se réinvente
+        et consiste en :☀️ une après-midi pour promouvoir la vie étudiante et les activités de l’UTT
+         dans laquelle vous retrouverez des stands de vulgarisation scientifique, de présentation de
+          nos associations et pleins d’autres activités ludiques sans oublier les stands de 
+          restauration et de quoi vous désaltérer !⭐️ une soirée avec de la musique dans tous 
+          les coins et pour tous les goûts, des stands de restauration, un feu d’artifice et encore
+           pleins de surprises !"></TextAndImageRight>
       </div>
 
       <div class="text-container">
@@ -126,14 +145,22 @@ import CopilotBook from './Components/CopilotBook.vue';
           nos associations et pleins d’autres activités ludiques sans oublier les stands de 
           restauration et de quoi vous désaltérer !⭐️ une soirée avec de la musique dans tous 
           les coins et pour tous les goûts, des stands de restauration, un feu d’artifice et encore
-           pleins de surprises !"></TextAndImageLeft>
+           pleins de surprises !"
+           image="src//assets//Logo_or.png"></TextAndImageLeft>
       </div>
       
       <div class="text-container">
         <div style="width: 100%; display: flex; align-items: flex-end;">
           <h2 style="color: aliceblue;">Lorem Ipsum</h2>
         </div>
-        <TextAndImageRight></TextAndImageRight>
+        <TextAndImageRight msg="Cassiopée est un festival incontournable qui a lieu une fois
+       par an au cœur de l’Université de Technologie de Troyes.Cette année Cassiopée se réinvente
+        et consiste en :☀️ une après-midi pour promouvoir la vie étudiante et les activités de l’UTT
+         dans laquelle vous retrouverez des stands de vulgarisation scientifique, de présentation de
+          nos associations et pleins d’autres activités ludiques sans oublier les stands de 
+          restauration et de quoi vous désaltérer !⭐️ une soirée avec de la musique dans tous 
+          les coins et pour tous les goûts, des stands de restauration, un feu d’artifice et encore
+           pleins de surprises !"></TextAndImageRight>
       </div>
 
       <div class="text-container">
@@ -175,10 +202,7 @@ import CopilotBook from './Components/CopilotBook.vue';
       </div>
     </div>
     
-    <div id="soiree">
-      <br>
-      <VerticalCard />
-    </div>
+    
   </body>
 </template>
 
