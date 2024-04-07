@@ -28,7 +28,6 @@ Il est interdit de se présenter en possession d’armes (y compris les armes d�
     display: flex;
     justify-content: space-between;
     width: 90%;
-    height:  10vh;
     padding: 10px;
 }
 .image-container {
@@ -39,6 +38,23 @@ Il est interdit de se présenter en possession d’armes (y compris les armes d�
 .text-container {
     float: left;
     min-width : 60%;
+}
+@media (max-width: 500px) {    
+    .textArea {
+        flex-direction: column;
+        align-items: center;
+    }
+    .image-container {
+        display: none;
+        float: none;
+        max-width: 100%;
+        margin-top: 10px;
+    }
+    
+    .text-container {
+        float: none;
+        min-width: 100%;
+    }
 }
 </style>
     

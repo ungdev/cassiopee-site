@@ -3,6 +3,11 @@
         msg: {
             type: String,
             required: true
+        },
+        image: {
+            type: String,
+            required: false,
+            default: "../assets/Logo.png"
         }
     })
 </script>
@@ -11,7 +16,7 @@
     <div>
         <div class="textArea">
         <div class="image-container">
-            <img src="../assets/graphisme/mouton de dos.png" width="200px" alt="Image" />
+            <img src="image" width="200px" alt="Image" />
         </div>
         <div class="text-container">
             <p style="color: aliceblue;">{{ msg }}</p>
@@ -32,7 +37,7 @@
     display: flex;
     justify-content: space-between;
     width: 90%;
-    height:  10vh;
+    
     padding: 10px;
 }
 .image-container {
@@ -44,6 +49,20 @@
     float: left;
     min-width: 60%;
     
+}
+@media (max-width: 500px) {    
+    .textArea {
+        flex-direction: column;
+        align-items: center;
+    }
+    .image-container {
+        display: none;
+    }
+    
+    .text-container {
+        float: none;
+        min-width: 100%;
+    }
 }
 </style>
     
