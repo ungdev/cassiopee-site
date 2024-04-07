@@ -16,7 +16,7 @@
     <div>
         <div class="textArea">
         <div class="image-container">
-            <img src="image" width="200px" alt="Image" />
+            <img src="../assets/Logo.png" width="200px" alt="Image" />
         </div>
         <div class="text-container">
             <p style="color: aliceblue;">{{ msg }}</p>
