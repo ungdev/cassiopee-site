@@ -3,14 +3,15 @@ import { ref } from 'vue'
 defineProps({
     frontTitle: String,
     backTitle: String,
-    backText: String
+    backText: String,
+    img: String
 })
 </script>
 
 <template>
     <br>
     <div class="flip flip-vertical">
-            <div class="front" style="background-image: url(https://images.pexels.com/photos/540518/pexels-photo-540518.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb)">
+            <div class="front" :style="img">
             <h1 class="text-shadow">{{ frontTitle }}</h1>
             </div>
             <div class="back">
