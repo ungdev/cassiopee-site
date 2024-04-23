@@ -13,3 +13,12 @@
   font-family: 'deuxieme rang';
   src: url('@/assets/deuxieme_rang/Deuxieme_Rang.otf') format('opentype');
 }
+
+h1{
+color: aliceblue;
+margin-left: 5%
+}
+h2{
+color: aliceblue;
+
+}
