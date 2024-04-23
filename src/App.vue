@@ -37,7 +37,7 @@ import Slideshow from './Components/Slideshow.vue';
 
       <div class="text-container">
         <div style="width: 100%; display: flex; align-items: flex-end;">
-          <h2  >Entrée libre pour tous</h2>
+          <h2>Entrée libre pour tous</h2>
         </div>
         <TextAndImageRight msg="De 15h à 20h, le public est attendu à l’UTT pour voyager dans l’univers du Petit Prince et découvrir les différentes associations étudiantes, leurs projets et participer à des activités ludiques. "
         image="src/assets/graphisme/petit prince tient le titre.png"></TextAndImageRight>
