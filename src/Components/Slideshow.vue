@@ -34,15 +34,15 @@
 <script setup>
 const slides = [
     {
-        image: "src/assets/part/fruitz-1.webp",
+        image: "/part/fruitz-1.webp",
         caption: "Fruitz",
     },
     {
-        image: "src/assets/part/igraal.jpeg",
+        image: "/part/igraal.jpeg",
         caption: "Igraal",
     },
     {
-        image: "src/assets/part/Logo affiche/Provexi.png",
+        image: "/part/Logo affiche/Provexi.png",
         caption: "Provexi",
     },
 ];
