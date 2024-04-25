@@ -52,15 +52,30 @@ video {
 }
 h1{
     font-size: 5rem;
+    margin: 0;
     font-family: tan meringue;
 }
 h2{
     font-size: 3rem;
+    margin: 0;
+
     font-family: deuxieme rang;
 }
 h3{
     font-size: 3rem;
+    margin: 0;
     font-family: tan meringue;
+}
+@media (max-width: 600px){
+    h1{
+        font-size: 3.5rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
 }
 
 .video-wrapper {

@@ -14,7 +14,7 @@
 </script>
 
 <template>
-    <div>
+    <div class="container">
         <div class="textArea">
         <div class="image-container">
             <img :src="image" width="200px" alt="Image" />
@@ -28,7 +28,7 @@
 </template>
 
 <style scoped>
-*{
+.container{
     padding: 5px;
     display: flex;
     justify-content: center;
@@ -38,7 +38,7 @@
     display: flex;
     justify-content: space-between;
     width: 90%;
-    
+    gap:30px;
     padding: 10px;
 }
 .image-container {
@@ -49,15 +49,13 @@
 .text-container {
     float: left;
     min-width: 60%;
+    text-align: justify;
     
 }
 @media (max-width: 500px) {    
     .textArea {
         flex-direction: column;
         align-items: center;
-    }
-    .image-container {
-        display: none;
     }
     
     .text-container {

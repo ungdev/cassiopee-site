@@ -13,7 +13,7 @@ import { defineProps } from 'vue'
 </script>
 
 <template>
-    <div class="textContainer">
+    <div class="container">
         <div class="textArea">
         <div class="text-container">
             <p style="color: aliceblue;">{{ msg }}</p>
@@ -47,6 +47,7 @@ import { defineProps } from 'vue'
 .text-container {
     float: left;
     min-width : 60%;
+    text-align: justify;
 }
 @media (max-width: 500px) {    
     .textArea {
@@ -54,7 +55,6 @@ import { defineProps } from 'vue'
         align-items: center;
     }
     .image-container {
-        display: none;
         float: none;
         max-width: 100%;
         margin-top: 10px;

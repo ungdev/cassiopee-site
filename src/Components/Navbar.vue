@@ -12,8 +12,8 @@
             <div class="dropdown-menu">
                 <a href="#" class="dropdown-item">Les stands</a>
                 <a href="#" class="dropdown-item">Les animations</a>
-                <a href="#" class="dropdown-item">La nourriture</a>
-                <a href="#" class="dropdown-item">Les boissons</a>
+                <a href="#" class="dropdown-item">Restauration</a>
+                <a href="#" class="dropdown-item">Boissons</a>
 
             </div>
           </li>
@@ -21,8 +21,8 @@
             <a class="nav-link dropdown-toggle" aria-haspopup="true" aria-expanded="true" data-toggle="dropdown" href="#">La soirée</a>
             <div class="dropdown-menu">
                 <a href="#" class="dropdown-item">Les artistes</a>
-                <a href="#" class="dropdown-item">La nourriture</a>
-                <a href="#" class="dropdown-item">Les boissons</a>
+                <a href="#" class="dropdown-item">Restauration</a>
+                <a href="#" class="dropdown-item">Boissons</a>
 
             </div>
           </li>
@@ -30,7 +30,7 @@
             <a class="nav-link" href="#apropos">A propos</a>
           </li>
           <li class="nav-item billeterie active">
-            <a class="nav-link" href="https://www.billetweb.fr/cassiopee-2024" target="_blank" >Billeterie</a>
+            <a class="nav-link" href="https://www.billetweb.fr/cassiopee-2024" target="_blank" >Billetterie</a>
             
           </li>
         </ul>
@@ -51,7 +51,7 @@
 
 #nav-logo {
   height: 40px;
-  width: auto;
+  width: 100%;
 }
 .navbar-nav{
   text-align: right;

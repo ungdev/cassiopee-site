@@ -12,10 +12,10 @@ defineProps({
     <br>
     <div class="flip flip-vertical">
             <div class="front" :style="img">
-            <h1 class="text-shadow">{{ frontTitle }}</h1>
+            <h2 class="text-shadow">{{ frontTitle }}</h2>
             </div>
             <div class="back">
-            <h2>{{ backTitle }}</h2>
+            <h3>{{ backTitle }}</h3>
             <p>{{ backText }}</p>
             </div>
     </div>
@@ -96,5 +96,19 @@ defineProps({
 
 .text-shadow {
 text-shadow: 1px 1px rgba(0, 0, 0, 0.04), 2px 2px rgba(0, 0, 0, 0.04), 3px 3px rgba(0, 0, 0, 0.04), 4px 4px rgba(0, 0, 0, 0.04), 0.125rem 0.125rem rgba(0, 0, 0, 0.04), 6px 6px rgba(0, 0, 0, 0.04), 7px 7px rgba(0, 0, 0, 0.04), 8px 8px rgba(0, 0, 0, 0.04), 9px 9px rgba(0, 0, 0, 0.04), 0.3125rem 0.3125rem rgba(0, 0, 0, 0.04), 11px 11px rgba(0, 0, 0, 0.04), 12px 12px rgba(0, 0, 0, 0.04), 13px 13px rgba(0, 0, 0, 0.04), 14px 14px rgba(0, 0, 0, 0.04), 0.625rem 0.625rem rgba(0, 0, 0, 0.04), 16px 16px rgba(0, 0, 0, 0.04), 17px 17px rgba(0, 0, 0, 0.04), 18px 18px rgba(0, 0, 0, 0.04), 19px 19px rgba(0, 0, 0, 0.04), 1.25rem 1.25rem rgba(0, 0, 0, 0.04);
+}
+h2 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+@media (max-width: 500px) {
+    .flip {
+        width: 300px;
+        gap: 0;
+        margin-bottom: 0;
+
+    }
+    
 }
 </style>

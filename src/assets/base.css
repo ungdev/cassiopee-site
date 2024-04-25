@@ -16,9 +16,18 @@
 
 h1{
 color: aliceblue;
-margin-left: 5%
+margin-left: 5%;
+font-size: 30px;
+font-family: tan meringue;
+
+}
+@media (max-width: 768px) {
+  h1{
+    font-size: 20px;
+  }
+  
 }
 h2{
 color: aliceblue;
-
+margin-left: 5%;
 }
