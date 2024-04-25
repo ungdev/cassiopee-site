@@ -226,6 +226,7 @@ min-height: 15vh;
 
 .boxslide{
   background-color: rgb(255, 255, 255);
+  border-radius: 10px;
 }
 @media (max-width: 1000px) {  
   .text-container {
