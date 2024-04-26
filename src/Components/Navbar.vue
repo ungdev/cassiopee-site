@@ -51,7 +51,7 @@
 
 #nav-logo {
   height: 40px;
-  width: 100%;
+  width: auto;
 }
 .navbar-nav{
   text-align: right;

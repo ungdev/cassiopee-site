@@ -69,25 +69,27 @@ export default {
 .page-container {
     display: flex;
     justify-content: center;
+
 }
 
 .page {
-    overflow: hidden;
+    top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: aliceblue;
     margin: 1px;
-}
 
+    width:400px;
+    height:600px;
 
+    overflow: hidden;
 
-@media (min-width: 901px) {
-    .page {
-        width:400px;
-        height:600px;
-        
+    h2{
+        margin-top: 10%px;
     }
+
+
 }
 
 @media (min-width: 601px) and (max-width: 900px) {
@@ -102,8 +104,11 @@ export default {
     
     .page {
         width: 45%;
-        height: 60%;
+        height: 600px;
+        font-size: 12px;
+
     }
+
 }
 .page-enter-active,
 .page-leave-active {
