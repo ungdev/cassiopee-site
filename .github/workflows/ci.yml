@@ -1,0 +1,27 @@
+name: CI
+on:
+  push:
+    branches: [dev]
+  pull_request:
+    branches: [dev]
+
+jobs:
+  deploy:
+    if: ${{ github.event_name != 'pull_request' && (github.ref == 'refs/heads/dev') }}
+    runs-on: ubuntu-latest
+    env:
+      RESOURCE_NAME: ${{ 'cassiopee-dev' }}
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install oc
+        uses: redhat-actions/oc-installer@v1
+        with:
+          oc_version: '4.6'
+      - name: Login to OKD
+        run: oc login --token=${{ secrets.OKD_TOKEN }} --server=${{ secrets.OKD_SERVER }}
+
+      - name: Change the project
+        run: oc project ${{ secrets.OKD_PROJECT }}
+
+      - name: Start the build
+        run: oc start-build ${{ env.RESOURCE_NAME }} --follow
