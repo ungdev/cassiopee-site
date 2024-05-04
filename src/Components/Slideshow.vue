@@ -94,8 +94,14 @@ const slides = [
     position: absolute;
     top: 10%;
     width: 100%;
+    height: 100%;
     transition: none; 
 
+}
+.carousel-item {
+    width: 100%;
+    height: 100%;
+    margin: auto;
 }
 .carousel-item img {
     margin: auto;
