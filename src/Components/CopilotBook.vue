@@ -19,16 +19,16 @@ export default {
         return {
             pages: [
                 { title: 'Page 1', 
-                content: '<div style="margin:10px"><h2 style="color: black;">Diva Faune</h2><p>	Diva Faune est un groupe d’électro-pop français, fondé en 2013 par deux amis, dont un diplômé de l\'UTT.C’est avec le titre “Shine on my way” que le groupe se fait connaître du grand public et leur EP “Get up” est certifié disque de platine. </p><br><iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/39l75cUNbVMpHgykQLyOUT?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>' },
-                { title: 'Page 2', content: '<img src="/artiste/diva faune.png" style="background: top no-repeat; background-size:cover;"/>' },
+                content: '<div style=" margin-left:20px"><h2 style="color: black;">Diva Faune</h2><p>Diva Faune est un groupe d’électro-pop français, fondé en 2013 par deux amis, dont un diplômé de l\'UTT.C’est avec le titre “Shine on my way” que le groupe se fait connaître du grand public et leur EP “Get up” est certifié disque de platine. </p><iframe style=" margin-left:20px; border-radius:12px;" src="https://open.spotify.com/embed/artist/39l75cUNbVMpHgykQLyOUT?utm_source=generator" width="90%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>' },
+                { title: 'Page 2', content: '<img src="/artiste/diva faune.png" style="margin:10px background: top no-repeat; background-size:cover;"/>' },
                 { title: 'Page 3', 
-                content: '<div style="margin:10px"><h2 style="color: black;">Bekar</h2><p>Après avoir évolué au sein d’un groupe, il a entamé une carrière solo marquée par la sortie de son premier projet, « Boréal », en mars 2019. Il sort ensuite sa mixtape « Briques rouges », dans laquelle Bekar se présente, aussi bien personnellement que musicalement.</p><iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/6wjkiUBMMYSIx5UBTp7eKC?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>' },
+                content: '<div style=" margin-left:20px"><h2 style="color: black;">Bekar</h2><p>Après avoir évolué au sein d’un groupe, il a entamé une carrière solo marquée par la sortie de son premier projet, « Boréal ». Il sort ensuite sa mixtape « Briques rouges », dans laquelle Bekar se présente musicalement.</p><iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/6wjkiUBMMYSIx5UBTp7eKC?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>' },
                 { title: 'Page 4', content: '<img src="artiste/bekar.jpeg" style="background: top no-repeat; background-size:cover;"/>' },
                 { title: 'Page 5', 
-                content: '<div style="margin:10px"><h2 style="color: black;">Chinwvr</h2><p>Un ciel dégagé, un coucher de soleil jaune orangé et un bon jus d\'ananas bien frais: Chinwvr n\'attendra pas l\'été pour vous amener dans son univers estivale.</p><iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/0FO41jGlT3izLX7oULFUlr?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>' },
+                content: '<div style=" margin-left:20px"><h2 style="color: black;">Chinwvr</h2><p>Un ciel dégagé, un coucher de soleil jaune orangé et un bon jus d\'ananas bien frais: Chinwvr n\'attendra pas l\'été pour vous amener dans son univers estivale.</p><iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/0FO41jGlT3izLX7oULFUlr?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>' },
                 { title: 'Page 6', content: '<img src="artiste/chinwvr.png" style="background: top no-repeat; background-size:cover;"/>' },
                 { title: 'Page 7', 
-                content: '<div style="margin:10px"><h2 style="color: black;">Arone</h2><p>Arøne fait partie de « la next gen », cette génération d’artistes ayant grandi en écoutant majoritairement du rap, de la pop ou encore de l’électro. Elle propose aujourd’hui une musique touchante et rythmée. </p><iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/4azuvIO6w5uQmthX95jfL8?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>' },
+                content: '<div style=" margin-left:20px"><h2 style="color: black;">Arone</h2><p>Arøne fait partie de « la next gen », cette génération d’artistes ayant grandi en écoutant majoritairement du rap, de la pop ou encore de l’électro. Elle propose aujourd’hui une musique touchante et rythmée. </p><iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/4azuvIO6w5uQmthX95jfL8?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>' },
                 { title: 'Page 8', content: '<img src="artiste/arone.png" style="background: top no-repeat; background-size:cover ;"/>' },
                 // Add more pages as needed
             ],
@@ -63,31 +63,38 @@ export default {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-image: url("/artiste/book.png");
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    width: 1200px;
+    height: 750px;
+    border-radius: 10px;
+    h2{
+        font-family: tan meringue;
+    }
     
 }
 
 .page-container {
     display: flex;
     justify-content: center;
+    gap: 30px;
 
 }
 
 .page {
-    top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aliceblue;
-    margin: 1px;
+    background-color: none;
 
     width:400px;
-    height:600px;
-
+    height:550px;
+    border-radius: 10px;
     overflow: hidden;
 
-    h2{
-        margin-top: 10%px;
-    }
+  
 
 
 }
@@ -128,7 +135,7 @@ export default {
 }
 .navigation button {
     color: #333;
-    background-color: #f4f4f4;
+    background-color: #f4f4f44c;
     border: none;
     padding: 10px 20px;
     margin: 2px;
@@ -138,12 +145,12 @@ export default {
 }
 
 .navigation button:hover {
-    background-color: #ddd;
+    background-color: #e9e9e9;
 }
 
 .navigation button:disabled {
     color: #aaa;
-    background-color: #f4f4f4;
+    background-color: #f4f4f43d;
 }
 
 </style>
