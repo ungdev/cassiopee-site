@@ -93,7 +93,7 @@ backTitle="Pôle Santé"></VerticalCard>
       </div>
       <br>
 
-<h2> Animations</h2>
+<h2 id="animation"> Animations</h2>
 <br>
 <br>
       <div  class="fliprow">
@@ -102,7 +102,7 @@ backTitle="Cheers’UTT" ></VerticalCard>
         <VerticalCard front-title=" " back-text="Peacetone Brass Band,  la fanfare de l’UTT proposera un extrait de leur meilleurs reprises musicales " back-title="Peacetone Brass Band" img="background-image: url( /stand/fanfare.jpg)"></VerticalCard>
       </div>
       <br>
-      <h2> Restauration</h2>
+      <h2 id="restauration"> Restauration</h2>
 <br>
 <br>
       <div  class="fliprow">
@@ -116,7 +116,7 @@ backTitle="L'instant Breton"></VerticalCard>
         Salade de Fruit : 2€" img="background-image: url( /stand/omer.webp)" ></VerticalCard>
       </div>
       <br>
-      <h2>Boissons</h2>
+      <h2 id="boisson">Boissons</h2>
 <br>
       <div  class="fliprow">
         <VerticalCard back-title="Cocktails sans alcools" back-text="Nos étudiants vous servirons une selection de vos cocktails préférés mais revisité sans alcools" img="background-image: url( /stand/cocktails.jpeg)" ></VerticalCard>
@@ -131,12 +131,12 @@ backTitle="L'instant Breton"></VerticalCard>
         <h1 class="title">Localisation</h1>
       </div>
       <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2655.751217881598!2d4.064201176516134!3d48.26916197125829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ee99a0cb4a3a57%3A0x42148ce859fa2d02!2sUniversit%C3%A9%20de%20Technologie%20de%20Troyes!5e0!3m2!1sfr!2sfr!4v1713106420010!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      <br><br>
+      <br id="artiste"><br>
       <div style="width: 100%; display: flex; align-items: left;">
         <h1 class="title">Artistes</h1>
       </div>
       <br>
-      <div style="width: 100%;">
+      <div style="width: 100%;" >
         <CopilotBook/>
       </div>
       <br>
@@ -155,6 +155,26 @@ backTitle="L'instant Breton"></VerticalCard>
       </div>
       <div id="trombi">
         <img src="@\assets\petit-prince.jpg"  alt="Image" />
+      </div>
+      <h2 id="restauration2"> Restauration</h2>
+<br>
+<br>
+      <div  class="fliprow">
+        <VerticalCard front-title=" " img="background-image: url( /stand/instantbreton1.jpeg)" back-text="Galette(complète, saucisse et végétarienne) : 7€
+Crêpe au sucre : 2,50€
+Crêpe Nutella : 3€ 
+Crêpe (Beurre-sucre, caramel beurre salé, miel amandes effilées, pâte à tartiner Ô délice de Lucas, confiture) : 3,50 €"
+backTitle="L'instant Breton"></VerticalCard>
+        <VerticalCard front-title=" " back-title="Donuts d'Omer" back-text="Grand Donuts : 2,8€
+        Petit Donuts : 1,8€
+        Salade de Fruit : 2€" img="background-image: url( /stand/omer.webp)" ></VerticalCard>
+      </div>
+      <br>
+      <h2 id="boisson2">Boissons</h2>
+<br>
+      <div  class="fliprow">
+        <VerticalCard back-title="Cocktails sans alcools" back-text="Nos étudiants vous servirons une selection de vos cocktails préférés mais revisité sans alcools" img="background-image: url( /stand/cocktails.jpeg)" ></VerticalCard>
+        <VerticalCard back-title="Smoothie et Bubble Tea" back-text="Nous vous proposerons des smoothies aux frutis de saisons et des bubbles tea" img="background-image: url( /stand/smoothie.jpeg)"></VerticalCard>
       </div>
     </div>
     
