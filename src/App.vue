@@ -84,40 +84,37 @@ backTitle="Flocon sur les flots"></VerticalCard>
       <br>
       <div  class="fliprow">
         <VerticalCard front-title=" " img="background-image: url( /stand/secutt.jpeg)" back-text="L’association étudiante de secourisme proposera un parcours de brancardage ainsi qu’une activité sur le massage cardiaque."></VerticalCard>
-        <VerticalCard front-title=" " img="background-image: url( /stand/robot.jpeg)" back-text="Le club Robotik UTT organisera un Rocket League grandeur nature, un football avec des voitures téléguidées. Pour les connaisseurs du jeu vidéo ou pour les curieux, c’est l’occasion de manier et de découvrir une voiture faite maison.  "
-backTitle="Robotik'UTT"> </VerticalCard>
+        <VerticalCard front-title=" " img="background-image: url( /stand/robot.jpeg)" back-text="Le club Robotik UTT organisera un Rocket League grandeur nature, un football avec des voitures téléguidées. Pour les connaisseurs du jeu vidéo ou pour les curieux, c’est l’occasion de manier et de découvrir une voiture faite maison.  "        backTitle="Robotik'UTT"> </VerticalCard>
       </div>
       <div  class="fliprow seul">
-        <VerticalCard front-title=" " img="background-image: url( /stand/lunette.jpeg)" back-text="L’infirmerie fera découvrir les effets de l’alcool avec un parcours d’obstacle avec des lunettes imitant ses effets "
-backTitle="Pôle Santé"></VerticalCard>
+        <VerticalCard front-title=" " img="background-image: url( /stand/lunette.jpeg)" back-text="L’infirmerie fera découvrir les effets de l’alcool avec un parcours d’obstacle avec des lunettes imitant ses effets " backTitle="Pôle Santé"></VerticalCard>
       </div>
       <br>
 
-<h2> Animations</h2>
-<br>
-<br>
+      <h2> Animations</h2>
+      <br>
+      <br>
       <div  class="fliprow">
-        <VerticalCard front-title=" " img="background-image: url( /stand/cheers.jpg)" back-text="L'équipe de Cheerleeding de l'UTT proposera un show de leur meilleurs performances."
-backTitle="Cheers’UTT" ></VerticalCard>
+        <VerticalCard front-title=" " img="background-image: url( /stand/cheers.jpg)" back-text="L'équipe de Cheerleeding de l'UTT proposera un show de leur meilleurs performances." backTitle="Cheers’UTT" ></VerticalCard>
         <VerticalCard front-title=" " back-text="Peacetone Brass Band,  la fanfare de l’UTT proposera un extrait de leur meilleurs reprises musicales " back-title="Peacetone Brass Band" img="background-image: url( /stand/fanfare.jpg)"></VerticalCard>
       </div>
       <br>
       <h2> Restauration</h2>
-<br>
-<br>
+      <br>
+      <br>
       <div  class="fliprow">
-        <VerticalCard front-title=" " img="background-image: url( /stand/instantbreton1.jpeg)" back-text="Galette(complète, saucisse et végétarienne) : 7€
-Crêpe au sucre : 2,50€
-Crêpe Nutella : 3€ 
-Crêpe (Beurre-sucre, caramel beurre salé, miel amandes effilées, pâte à tartiner Ô délice de Lucas, confiture) : 3,50 €"
-backTitle="L'instant Breton"></VerticalCard>
+                  <VerticalCard front-title=" " img="background-image: url( /stand/instantbreton1.jpeg)" back-text="Galette(complète, saucisse et végétarienne) : 7€
+          Crêpe au sucre : 2,50€
+          Crêpe Nutella : 3€ 
+          Crêpe (Beurre-sucre, caramel beurre salé, miel amandes effilées, pâte à tartiner Ô délice de Lucas, confiture) : 3,50 €"
+          backTitle="L'instant Breton"></VerticalCard>
         <VerticalCard front-title=" " back-title="Donuts d'Omer" back-text="Grand Donuts : 2,8€
         Petit Donuts : 1,8€
         Salade de Fruit : 2€" img="background-image: url( /stand/omer.webp)" ></VerticalCard>
       </div>
       <br>
       <h2>Boissons</h2>
-<br>
+      <br>
       <div  class="fliprow">
         <VerticalCard back-title="Cocktails sans alcools" back-text="Nos étudiants vous servirons une selection de vos cocktails préférés mais revisité sans alcools" img="background-image: url( /stand/cocktails.jpeg)" ></VerticalCard>
         <VerticalCard back-title="Smoothie et Bubble Tea" back-text="Nous vous proposerons des smoothies aux frutis de saisons et des bubbles tea" img="background-image: url( /stand/smoothie.jpeg)"></VerticalCard>
