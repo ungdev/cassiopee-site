@@ -23,7 +23,6 @@ defineProps({
 
 <style scoped>
 
-
 .flip {
     position: relative;
     >.front,
@@ -34,6 +33,7 @@ defineProps({
         transition-property: transform, opacity;
     }
     >.front {
+        background-color: #313131;
         transform: rotateY(0deg);
     }
     >.back {

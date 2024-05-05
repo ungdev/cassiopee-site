@@ -16,7 +16,7 @@ import Slideshow from './Components/Slideshow.vue';
   <body>
     <Timer />
 
-    
+  <div id="grad">
     <div id="aprem">
         <div style="width: 100%; display: flex; align-items: left;">
         <h1 class="title">Qu'est ce que c'est Cassiopée ?</h1>
@@ -47,19 +47,31 @@ import Slideshow from './Components/Slideshow.vue';
       <div style="width: 100%; display: flex; align-items: flex-end;">
         <h1 id="stand" >Stands</h1>
       </div>
-      <br>
-      <h2> Parcours Mouton : Apprendre et S'amuser </h2>
-      <br>
-      
-      <div  class="fliprow">
-        <VerticalCard front-title=" " img="background-image: url(/stand/cupcake.jpg)" back-text="Les enfants et gourmands pourront s’amuser lors d’un atelier de décoration de cupcake sur le thème du Petit Prince" backTitle="Décors ton cupcake"></VerticalCard>
-        <VerticalCard front-title=" " img="background-image: url( /stand/mouton.jpg)" back-text=" “Dessine-moi un mouton”, phrase culte du conte, va tester la créativité des petits et grands en proposant de réaliser le souhait du Petit Prince."
-backTitle="Dessine-moi un mouton"> </VerticalCard>
-      </div>
-      <div  class="fliprow seul">
-        <VerticalCard front-title=" " img="background-image: url( /stand/canard.jpg)" back-text="Un espace détente sera mis en place avec des jeux tels qu’un chamboule tout ou une pêche aux canards. "
-backTitle="Kermesse'UTT"></VerticalCard>
-      </div>
+      <div class="box">
+        <br>
+        <h2> Parcours Mouton : Apprendre et S'amuser </h2>
+        <br>
+        <div class="fliprow">
+          <div>
+            <h2>Décors ton cupcake</h2>
+            <VerticalCard front-title="" img="background-image: url(/stand/cupcake.jpg)" back-text="Les enfants et gourmands pourront s’amuser lors d’un atelier de décoration de cupcake sur le thème du Petit Prince" backTitle=""></VerticalCard>
+          </div>
+          <div>
+            <h2>Dessine un mouton</h2>
+            <VerticalCard front-title="" img="background-image: url( /stand/mouton.jpg)" back-text=" “Dessine-moi un mouton”, phrase culte du conte, va tester la créativité des petits et grands en proposant de réaliser le souhait du Petit Prince."
+              backTitle=""> </VerticalCard>
+          </div>
+        </div>
+        <div style="display: flex; flex-direction: column; align-items: center">
+          
+          <div  class="fliprow seul">
+            <h2>Kermesse'UTT</h2>
+            <br>
+            <VerticalCard front-title=" " img="background-image: url( /stand/canard.jpg)" back-text="Un espace détente sera mis en place avec des jeux tels qu’un chamboule tout ou une pêche aux canards. "
+            backTitle=""></VerticalCard>
+          </div>
+        </div>
+      </div>      
       <br>
       <h2> Parcours Rose : Partager et Grandir</h2>  
       <br><br>
@@ -123,8 +135,6 @@ backTitle="L'instant Breton"></VerticalCard>
         <VerticalCard back-title="Smoothie et Bubble Tea" back-text="Nous vous proposerons des smoothies aux frutis de saisons et des bubbles tea" img="background-image: url( /stand/smoothie.jpeg)"></VerticalCard>
       </div>
     </div>
-    <div id="grad">
-    </div>
 
     <div id="soirée">
       <div style="width: 100%; display: flex; align-items: left;">
@@ -178,11 +188,19 @@ backTitle="L'instant Breton"></VerticalCard>
       </div>
     </div>
     
-    
+  </div>   
   </body>
 </template>
 
 <style scoped>
+
+.box{
+  background : rgba(0,0,0,0.2);
+  padding-left: 20%;
+  padding-right: 20%;
+  border-radius: 10px;
+
+}
 .title{
   color: aliceblue;
   margin-left: 5%;
@@ -230,11 +248,11 @@ body {
   justify-content: start;
   align-items: center;
   min-height: 100vh;
-  background-color: #4452ad;
+  background: rgba(0,0,0,0);
 }
 #grad {
-background-image: linear-gradient(#4452ad, #252655);
-min-height: 15vh;
+background-image: linear-gradient(#3447c3cd, #252655);
+min-height: 25vh;
 }
 #soirée {
   padding: 10px;
@@ -243,8 +261,8 @@ min-height: 15vh;
   justify-content: start;
   align-items: center;
   min-height: 100vh;
-  
-  background-color: #252655;
+  background: rgba(0,0,0,0);
+
 }
 
 .boxslide{
@@ -262,6 +280,13 @@ min-height: 15vh;
   }
 }
 @media (max-width: 500px) {  
+  .box{
+  background : rgba(0,0,0,0.2);
+  padding-left: 0%;
+  padding-right: 0%;
+  border-radius: 10px;
+
+  }
   .text-container {
     width: 95%;
   }
@@ -278,10 +303,14 @@ min-height: 15vh;
     padding: 50px 0px;
   }
   .fliprow {
-        width: 300px;
-        gap: 0;
-        margin-bottom: 0;
-
+    width:100%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    gap: 0;
+    padding:10px;
+    margin-bottom: 10px;
+    
     }
 
 }

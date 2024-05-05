@@ -57,7 +57,10 @@
         flex-direction: column;
         align-items: center;
     }
-    
+    .image-container {
+        float: left;
+        max-width: 60%;
+    }
     .text-container {
         float: none;
         min-width: 100%;
