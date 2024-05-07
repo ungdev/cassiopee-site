@@ -48,7 +48,6 @@ import Slideshow from './Components/Slideshow.vue';
         <h1 id="stand" >Stands</h1>
       </div>
       <div class="box">
-        <br>
         <h2> Parcours Mouton : Apprendre et S'amuser </h2>
         <br>
         <div class="fliprow">
@@ -90,21 +89,34 @@ backTitle="Flocon sur les flots"></VerticalCard>
       </div>
 
       <br>
-
+      <diV class="box2">
+        <div style="transform: rotate(180deg);">
       <h2> Parcours Renard : Aimer et Apprivoiser </h2>
       <br>
       <br>
       <div  class="fliprow">
-        <VerticalCard front-title=" " img="background-image: url( /stand/secutt.jpeg)" back-text="L’association étudiante de secourisme proposera un parcours de brancardage ainsi qu’une activité sur le massage cardiaque."></VerticalCard>
-        <VerticalCard front-title=" " img="background-image: url( /stand/robot.jpeg)" back-text="Le club Robotik UTT organisera un Rocket League grandeur nature, un football avec des voitures téléguidées. Pour les connaisseurs du jeu vidéo ou pour les curieux, c’est l’occasion de manier et de découvrir une voiture faite maison.  "
-backTitle="Robotik'UTT"> </VerticalCard>
+        <div>
+          <h2>Décors ton cupcake</h2>
+          <VerticalCard front-title=" " img="background-image: url( /stand/secutt.jpeg)" back-text="L’association étudiante de secourisme proposera un parcours de brancardage ainsi qu’une activité sur le massage cardiaque."></VerticalCard>
+        </div>
+        <div>
+          <h2>Robotik'UTT</h2>
+          <VerticalCard front-title=" " img="background-image: url( /stand/robot.jpeg)" back-text="Le club Robotik UTT organisera un Rocket League grandeur nature, un football avec des voitures téléguidées. Pour les connaisseurs du jeu vidéo ou pour les curieux, c’est l’occasion de manier et de découvrir une voiture faite maison.  "
+backTitle=""> </VerticalCard>
+        </div>
+        
       </div>
-      <div  class="fliprow seul">
+      <div style="display: flex; flex-direction: column; align-items: center">   
+        <div  class="fliprow seul">
+        <h2>Pôle santé</h2>
+        <br>
         <VerticalCard front-title=" " img="background-image: url( /stand/lunette.jpeg)" back-text="L’infirmerie fera découvrir les effets de l’alcool avec un parcours d’obstacle avec des lunettes imitant ses effets "
 backTitle="Pôle Santé"></VerticalCard>
       </div>
-      <br>
-
+        </div>
+      
+      </div>
+    </diV>
 <h2 id="animation"> Animations</h2>
 <br>
 <br>
@@ -193,13 +205,20 @@ backTitle="L'instant Breton"></VerticalCard>
 </template>
 
 <style scoped>
-
 .box{
-  background : rgba(0,0,0,0.2);
+  background-image: url("assets/graphisme/Fond_de_planète_2.png");
+  padding-top: 5px; 
   padding-left: 20%;
   padding-right: 20%;
   border-radius: 10px;
-
+}
+.box2{
+  background-image: url("assets/graphisme/Fond_de_planète_2.png");
+  transform: rotate(180deg);
+  padding-top: 5px; 
+  padding-left: 20%;
+  padding-right: 20%;
+  border-radius: 10px;
 }
 .title{
   color: aliceblue;
