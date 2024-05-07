@@ -89,8 +89,7 @@ backTitle="Flocon sur les flots"></VerticalCard>
       </div>
 
       <br>
-      <diV class="box2">
-        <div style="transform: rotate(180deg);">
+      <diV class="box">
       <h2> Parcours Renard : Aimer et Apprivoiser </h2>
       <br>
       <br>
@@ -114,8 +113,7 @@ backTitle=""> </VerticalCard>
 backTitle="Pôle Santé"></VerticalCard>
       </div>
         </div>
-      
-      </div>
+
     </diV>
 <h2 id="animation"> Animations</h2>
 <br>
@@ -207,19 +205,13 @@ backTitle="L'instant Breton"></VerticalCard>
 <style scoped>
 .box{
   background-image: url("assets/graphisme/Fond_de_planète_2.png");
+  background-size: cover;
   padding-top: 5px; 
   padding-left: 20%;
   padding-right: 20%;
   border-radius: 10px;
 }
-.box2{
-  background-image: url("assets/graphisme/Fond_de_planète_2.png");
-  transform: rotate(180deg);
-  padding-top: 5px; 
-  padding-left: 20%;
-  padding-right: 20%;
-  border-radius: 10px;
-}
+
 .title{
   color: aliceblue;
   margin-left: 5%;
