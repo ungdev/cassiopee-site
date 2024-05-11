@@ -19,7 +19,7 @@ export default {
         return {
             pages: [
                 { title: 'Page 1', 
-                content: '<div style=" margin-left:20px"><h2 style="color: black;">Diva Faune</h2><p>Diva Faune est un groupe d’électro-pop français, fondé en 2013 par deux amis, dont un diplômé de l\'UTT.C’est avec le titre “Shine on my way” que le groupe se fait connaître du grand public et leur EP “Get up” est certifié disque de platine. </p><iframe style=" margin-left:20px; border-radius:12px;" src="https://open.spotify.com/embed/artist/39l75cUNbVMpHgykQLyOUT?utm_source=generator" width="90%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>' },
+                content: '<div class="left" style=" margin-left:20px"><div><h2 style="color: black;">Diva Faune</h2><p>Diva Faune est un groupe d’électro-pop français, fondé en 2013 par deux amis, dont un diplômé de l\'UTT.C’est avec le titre “Shine on my way” que le groupe se fait connaître du grand public et leur EP “Get up” est certifié disque de platine. </p></div><iframe style=" margin-left:20px; border-radius:12px;" src="https://open.spotify.com/embed/artist/39l75cUNbVMpHgykQLyOUT?utm_source=generator" width="90%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>' },
                 { title: 'Page 2', content: '<img src="/artiste/diva faune.png" style="margin:10px background: top no-repeat; background-size:cover;"/>' },
                 { title: 'Page 3', 
                 content: '<div style=" margin-left:20px"><h2 style="color: black;">Bekar</h2><p>Après avoir évolué au sein d’un groupe, il a entamé une carrière solo marquée par la sortie de son premier projet, « Boréal ». Il sort ensuite sa mixtape « Briques rouges », dans laquelle Bekar se présente musicalement.</p><iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/6wjkiUBMMYSIx5UBTp7eKC?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>' },
@@ -108,14 +108,26 @@ export default {
 }
 
 @media (max-width: 600px) {
-    
+    .book {
+        width: 100%;
+        height: auto;
+        .left{
+            margin-left: 0px;
+            display: flex;
+            flex-direction: row;
+        }
+    }
+    .page-container {
+        flex-direction: column;
+    }
     .page {
-        width: 45%;
-        height: 600px;
-        font-size: 12px;
+        width: 90%;
+        height: auto;
 
     }
-
+    .navigation {
+        flex-direction: column;
+    }
 }
 .page-enter-active,
 .page-leave-active {
