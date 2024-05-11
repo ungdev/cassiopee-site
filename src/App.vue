@@ -49,6 +49,8 @@ import Slideshow from './Components/Slideshow.vue';
       </div>
       <div class="box">
         <h2> Parcours Mouton : Apprendre et S'amuser </h2>
+        <img src="/src/assets/graphisme/Etoile.png" alt="parcours" class="box-img-top"/>
+        <img src="/src/assets/graphisme/Goateeeee.png" alt="parcours" class="box-img-bottom"/>
         <br>
         <div class="fliprow">
           <div>
@@ -72,9 +74,9 @@ import Slideshow from './Components/Slideshow.vue';
         </div>
       </div>      
       <br>
-      <h2> Parcours Rose : Partager et Grandir</h2>  
+      <h2> Parcours Rose : Partager et Grandir</h2> 
+      
       <br><br>
-   
       <div  class="fliprow">
         <VerticalCard front-title=" " img="background-image: url( /stand/nereides.jpeg)" back-text=" Les amateurs de voyages ou ceux qui veulent naviguer de planètes en planètes, pourront découvrir le bateau fabriqué par le Projet étudiant Néréides, qui a pour but de créer un bateau éco-responsable et durable, afin de participer au Monaco Energy Boat Challenge."
 backTitle="Nereides"></VerticalCard>
@@ -91,6 +93,8 @@ backTitle="Flocon sur les flots"></VerticalCard>
       <br>
       <diV class="box">
       <h2> Parcours Renard : Aimer et Apprivoiser </h2>
+      <img src="/src/assets/graphisme/petit prince réfléchit.png" alt="parcours" class="box-img-top"/>
+      <img src="/src/assets/graphisme/mouton de dos.png" alt="parcours" class="box-img-bottom"/>
       <br>
       <br>
       <div  class="fliprow">
@@ -113,7 +117,6 @@ backTitle=""> </VerticalCard>
 backTitle="Pôle Santé"></VerticalCard>
       </div>
         </div>
-
     </diV>
 <h2 id="animation"> Animations</h2>
 <br>
@@ -124,10 +127,13 @@ backTitle="Cheers’UTT" ></VerticalCard>
         <VerticalCard front-title=" " back-text="Peacetone Brass Band,  la fanfare de l’UTT proposera un extrait de leur meilleurs reprises musicales " back-title="Peacetone Brass Band" img="background-image: url( /stand/fanfare.jpg)"></VerticalCard>
       </div>
       <br>
-      <h2 id="restauration"> Restauration</h2>
-<br>
-<br>
-      <div  class="fliprow">
+      <div class="box">
+        <img src="/src/assets/graphisme/mouton fier.png" alt="parcours" class="box-img-top" style="right: 0%;"/>
+      <img src="/src/assets/graphisme/Goateeeee.png" alt="parcours" class="box-img-bottom"/>
+        <h2 id="restauration"> Restauration</h2>
+        <br>
+        <br>
+        <div  class="fliprow">
         <VerticalCard front-title=" " img="background-image: url( /stand/instantbreton1.jpeg)" back-text="Galette(complète, saucisse et végétarienne) : 7€
 Crêpe au sucre : 2,50€
 Crêpe Nutella : 3€ 
@@ -137,6 +143,7 @@ backTitle="L'instant Breton"></VerticalCard>
         Petit Donuts : 1,8€
         Salade de Fruit : 2€" img="background-image: url( /stand/omer.webp)" ></VerticalCard>
       </div>
+    </div>
       <br>
       <h2 id="boisson">Boissons</h2>
 <br>
@@ -147,10 +154,16 @@ backTitle="L'instant Breton"></VerticalCard>
     </div>
 
     <div id="soirée">
+      <div class="box">
+      <br>
       <div style="width: 100%; display: flex; align-items: left;">
         <h1 class="title">Localisation</h1>
       </div>
+      <img src="/src/assets/graphisme/Planète anneau.png" alt="parcours" class="box-img-top"/>
+      <img src="/src/assets/graphisme/renard qui dort.png" alt="parcours" class="box-img-bottom"/>
       <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2655.751217881598!2d4.064201176516134!3d48.26916197125829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ee99a0cb4a3a57%3A0x42148ce859fa2d02!2sUniversit%C3%A9%20de%20Technologie%20de%20Troyes!5e0!3m2!1sfr!2sfr!4v1713106420010!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <br><br>
+    </div>
       <br id="artiste"><br>
       <div style="width: 100%; display: flex; align-items: left;">
         <h1 class="title">Artistes</h1>
@@ -160,25 +173,12 @@ backTitle="L'instant Breton"></VerticalCard>
         <CopilotBook/>
       </div>
       <br>
-      <br>
-      <div style="width: 100%; display: flex; align-items: flex-end;">
-        <h1 >Partenaires </h1>
-      </div>
-        <br>
-        <div class="boxslide">
-        <Slideshow/>
-      </div>
-      <br>
-      <br>
-      <div style="width: 100%; display: flex; align-items: flex-end;">
-        <h1  >Equipe Cassiopée</h1>
-      </div>
-      <div id="trombi">
-        <img src="@\assets\petit-prince.jpg"  alt="Image" />
-      </div>
+      <div class="box">
       <h2 id="restauration2"> Restauration</h2>
-<br>
-<br>
+      <img src="/src/assets/graphisme/mouton fier.png" alt="parcours" class="box-img-top" style="right: 0%;"/>
+      <img src="/src/assets/graphisme/Goateeeee.png" alt="parcours" class="box-img-bottom"/>
+      <br>
+      <br>
       <div  class="fliprow">
         <VerticalCard front-title=" " img="background-image: url( /stand/instantbreton1.jpeg)" back-text="Galette(complète, saucisse et végétarienne) : 7€
 Crêpe au sucre : 2,50€
@@ -189,6 +189,7 @@ backTitle="L'instant Breton"></VerticalCard>
         Petit Donuts : 1,8€
         Salade de Fruit : 2€" img="background-image: url( /stand/omer.webp)" ></VerticalCard>
       </div>
+    </div>
       <br>
       <h2 id="boisson2">Boissons</h2>
 <br>
@@ -196,6 +197,29 @@ backTitle="L'instant Breton"></VerticalCard>
         <VerticalCard back-title="Cocktails sans alcools" back-text="Nos étudiants vous servirons une selection de vos cocktails préférés mais revisité sans alcools" img="background-image: url( /stand/cocktails.jpeg)" ></VerticalCard>
         <VerticalCard back-title="Smoothie et Bubble Tea" back-text="Nous vous proposerons des smoothies aux frutis de saisons et des bubbles tea" img="background-image: url( /stand/smoothie.jpeg)"></VerticalCard>
       </div>
+      
+      <br>
+      <br>
+      <div class="box">
+      <div style="width: 100%; display: flex; align-items: flex-end;">
+        <h1 >Partenaires </h1>
+        <img src="/src/assets/graphisme/Planète anneau.png" alt="parcours" class="box-img-top"/>
+      <img src="/src/assets/graphisme/renard qui dort.png" alt="parcours" class="box-img-bottom"/>
+      </div>
+        <br>
+        <div class="boxslide">
+        <Slideshow/>
+      </div>
+    </div>
+      <br>
+      <br>
+      <div style="width: 100%; display: flex; align-items: flex-end;">
+        <h1  >Equipe Cassiopée</h1>
+      </div>
+      <div id="trombi">
+        <img src="@\assets\petit-prince.jpg"  alt="Image" />
+      </div>
+      
     </div>
     
   </div>   
@@ -203,8 +227,22 @@ backTitle="L'instant Breton"></VerticalCard>
 </template>
 
 <style scoped>
+.box-img-top{
+  position: absolute;
+  width: 20%; 
+  top: -10%; 
+  right: -3%; 
+}
+.box-img-bottom{
+  position: absolute;
+   width: 20%; 
+   bottom: -10%; 
+   left: -3%; 
+   transform: rotateY(180deg);
+}
 .box{
-  background-image: url("assets/graphisme/Fond_de_planète_2.png");
+  position: relative;
+  background: rgba(0,0,0,0.2);  
   background-size: cover;
   padding-top: 5px; 
   padding-left: 20%;
@@ -291,10 +329,16 @@ min-height: 25vh;
   }
 }
 @media (max-width: 500px) {  
+  .box-img-bottom{
+    display: none;
+  }
+  .box-img-top{
+    display: none;
+  }
   .box{
   background : rgba(0,0,0,0.2);
-  padding-left: 0%;
-  padding-right: 0%;
+  padding-left: 10%;
+  padding-right: 10%;
   border-radius: 10px;
 
   }
