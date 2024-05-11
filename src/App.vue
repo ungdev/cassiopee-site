@@ -288,6 +288,7 @@ backTitle="L'instant Breton"></VerticalCard>
   gap: 0;
 }
 body {
+  overflow-x: hidden;
   background-color: #f8f9fa;
 }
 #aprem {
