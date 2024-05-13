@@ -62,7 +62,6 @@ export default {
 .book {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     background-image: url("/artiste/book.png");
     background-position: center;
     background-size: cover;
@@ -79,6 +78,7 @@ export default {
 .page-container {
     display: flex;
     gap: 30px;
+    justify-content: center;
 
 }
 
@@ -91,6 +91,11 @@ export default {
     height:550px;
     border-radius: 10px;
     overflow: hidden;
+    img{
+        height: 550px;
+        background-size: cover;
+        background-position: center;
+    }
 
   
 
