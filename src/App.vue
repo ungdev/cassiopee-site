@@ -122,8 +122,7 @@ backTitle="Pôle Santé"></VerticalCard>
 <br>
 <br>
       <div  class="fliprow">
-        <VerticalCard front-title=" " img="background-image: url( /stand/cheers.jpg)" back-text="L'équipe de Cheerleeding de l'UTT proposera un show de leur meilleurs performances."
-backTitle="Cheers’UTT" ></VerticalCard>
+        <VerticalCard front-title=" " img="background-image: url( /stand/cheers.jpg)" back-text="L'équipe de Cheerleeding de l'UTT proposera un show de leur meilleurs performances." backTitle="Cheers’UTT" ></VerticalCard>
         <VerticalCard front-title=" " back-text="Peacetone Brass Band,  la fanfare de l’UTT proposera un extrait de leur meilleurs reprises musicales " back-title="Peacetone Brass Band" img="background-image: url( /stand/fanfare.jpg)"></VerticalCard>
       </div>
       <br>
