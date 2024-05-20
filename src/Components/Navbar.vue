@@ -20,9 +20,9 @@
           <li class="nav-item dropdown active">
             <a class="nav-link dropdown-toggle" aria-haspopup="true" aria-expanded="true" data-toggle="dropdown" href="#">La soirée</a>
             <div class="dropdown-menu">
-                <a href="#artiste" class="dropdown-item">Les artistes</a>
-                <a href="#restauration2" class="dropdown-item">Restauration</a>
-                <a href="#boisson2" class="dropdown-item">Boissons</a>
+                <a href="#" class="dropdown-item">Les artistes</a>
+                <a href="#" class="dropdown-item">Restauration</a>
+                <a href="#" class="dropdown-item">Boissons</a>
 
             </div>
           </li>

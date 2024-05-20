@@ -54,22 +54,21 @@ import Slideshow from './Components/Slideshow.vue';
         <br>
         <div class="fliprow">
           <div>
-            <h2>Décors ton cupcake</h2>
-            <VerticalCard front-title="" img="background-image: url(/stand/cupcake.jpg)" back-text="Les enfants et gourmands pourront s’amuser lors d’un atelier de décoration de cupcake sur le thème du Petit Prince" backTitle=""></VerticalCard>
+            <h2>Troyes Racing Team</h2>
+            <VerticalCard front-title="" img="background-image: url( /stand/fanfare.jpg)" back-text="L’association Troyes Racing Team présentera son projet de conception et fabrication d’une voiture de course (qui se rapproche de la formule 1) et organisera une course de voitures télécommandées. " backTitle=""></VerticalCard>
           </div>
           <div>
-            <h2>Dessine un mouton</h2>
-            <VerticalCard front-title="" img="background-image: url( /stand/mouton.jpg)" back-text=" “Dessine-moi un mouton”, phrase culte du conte, va tester la créativité des petits et grands en proposant de réaliser le souhait du Petit Prince."
-              backTitle=""> </VerticalCard>
+            <h2>Robotik'UTT</h2>
+          <VerticalCard front-title=" " img="background-image: url( /stand/robot.jpeg)" back-text="Le club Robotik UTT organisera un Rocket League grandeur nature, un football avec des voitures téléguidées. Pour les connaisseurs du jeu vidéo ou pour les curieux, c’est l’occasion de manier et de découvrir une voiture faite maison.  "
+backTitle=""> </VerticalCard>
           </div>
         </div>
         <div style="display: flex; flex-direction: column; align-items: center">
           
           <div  class="fliprow seul">
-            <h2>Kermesse'UTT</h2>
-            <br>
-            <VerticalCard front-title=" " img="background-image: url( /stand/canard.jpg)" back-text="Un espace détente sera mis en place avec des jeux tels qu’un chamboule tout ou une pêche aux canards. "
-            backTitle=""></VerticalCard>
+            <h2>Dessine un mouton</h2>
+            <VerticalCard front-title="" img="background-image: url( /stand/mouton.jpg)" back-text=" Les âmes d’enfants pourront participer à l’activité “dessine-moi un mouton”, et fabriquer des bracelets brésiliens et de petits paniers en tissus ou autres décorations avec le club Tiss’UTT, club couture des étudiants."
+              backTitle=""> </VerticalCard>
           </div>
         </div>
       </div>      
@@ -77,16 +76,23 @@ import Slideshow from './Components/Slideshow.vue';
       <h2> Parcours Rose : Partager et Grandir</h2> 
       
       <br><br>
+      
       <div  class="fliprow">
-        <VerticalCard front-title=" " img="background-image: url( /stand/nereides.jpeg)" back-text=" Les amateurs de voyages ou ceux qui veulent naviguer de planètes en planètes, pourront découvrir le bateau fabriqué par le Projet étudiant Néréides, qui a pour but de créer un bateau éco-responsable et durable, afin de participer au Monaco Energy Boat Challenge."
-backTitle="Nereides"></VerticalCard>
-        <VerticalCard front-title=" " img="background-image: url( /stand/nano.jpg)" back-text="Les étudiants présenteront les expériences du laboratoire lumière, nanomatériaux et nanotechnologies de manière ludique. "
-backTitle="Nanotechnologies"></VerticalCard>
-
+        <div>
+          <h2>Ch'UTT de vers</h2>
+        <VerticalCard front-title=" " img="background-image: url( /stand/nereides.jpeg)" back-text=" Les enfants et les curieux pourront percer à jour le doublage à travers un atelier proposé par les Ch’UTT de vers, la célèbre troupe de théâtre de l’UTT  ; et partager un bon moment chantant autour d’un karaoké organisé par la chorale Lalal’UTT."
+backTitle=""></VerticalCard>
+        </div>
+        <div>
+          <h2>Sec'UTT</h2>
+        <VerticalCard front-title=" " img="background-image: url( /stand/secutt.jpeg)" back-text="Pour les aventuriers, Sec’UTT, l’association étudiante de secourisme, veillera à ce qu’ils ne soient pas en détresse lors de leurs prochains défis, en proposant un parcours de brancardage et une activité sur le massage cardiaque. "
+backTitle=""></VerticalCard>
+        </div>
       </div>
       <div  class="fliprow seul">
-        <VerticalCard front-title=" " img="background-image: url( /stand/voilier.webp)" back-text=" Un atelier de sensibilisation et de découverte du monde marin est proposé par deux jeunes futurs ingénieurs en pleine préparation d’un Tour de l'Atlantique à la voile, voyage de 11 mois à partir d’août 2024 "
-backTitle="Flocon sur les flots"></VerticalCard>
+        <h2>Pôle santé</h2>
+        <VerticalCard front-title=" " img="background-image: url( /stand/lunette.jpeg)" back-text="Le pôle Santé fera découvrir de manière ludique les effets néfastes de l’alcool, de la drogue ou de la fatigue sur le corps humain, avec un parcours d’obstacle à effectuer en portant des lunettes de simulation reproduisant ces effets."
+backTitle=""></VerticalCard>
 
       </div>
 
@@ -99,22 +105,21 @@ backTitle="Flocon sur les flots"></VerticalCard>
       <br>
       <div  class="fliprow">
         <div>
-          <h2>Décors ton cupcake</h2>
-          <VerticalCard front-title=" " img="background-image: url( /stand/secutt.jpeg)" back-text="L’association étudiante de secourisme proposera un parcours de brancardage ainsi qu’une activité sur le massage cardiaque."></VerticalCard>
+          <h2>Néréides</h2>
+          <VerticalCard front-title=" " img="background-image: url( /stand/nereides.jpeg)" back-text="L’association Néréides présentera un bateau éco-responsable et durable, en cours de construction en vue de sa participation au Monaco Energy Boat Challenge."></VerticalCard>
         </div>
         <div>
-          <h2>Robotik'UTT</h2>
-          <VerticalCard front-title=" " img="background-image: url( /stand/robot.jpeg)" back-text="Le club Robotik UTT organisera un Rocket League grandeur nature, un football avec des voitures téléguidées. Pour les connaisseurs du jeu vidéo ou pour les curieux, c’est l’occasion de manier et de découvrir une voiture faite maison.  "
-backTitle=""> </VerticalCard>
-        </div>
-        
+          <h2>Flocons sur les flots</h2>
+        <VerticalCard front-title=" " img="background-image: url( /stand/canard.jpg)" back-text="un tour de l'Atlantique à la voile, voyage de 11 mois pour apprivoiser l’océan, à partir d’août 2024 avec 18 000 km à parcourir."
+        backTitle=""></VerticalCard>
+        </div> 
       </div>
       <div style="display: flex; flex-direction: column; align-items: center">   
         <div  class="fliprow seul">
-        <h2>Pôle santé</h2>
+        <h2>Ulisse</h2>
         <br>
-        <VerticalCard front-title=" " img="background-image: url( /stand/lunette.jpeg)" back-text="L’infirmerie fera découvrir les effets de l’alcool avec un parcours d’obstacle avec des lunettes imitant ses effets "
-backTitle="Pôle Santé"></VerticalCard>
+        <VerticalCard front-title=" " img="background-image: url( /stand/lunette.jpeg)" back-text="L’association Ulisse (Union Locale d'Ingénierie Sociale, Solidaire et Environnementale) fera participer petits et grands à un blind test sur le miel et offrira un temps convivial de fabrication d’éponges."
+backTitle=""></VerticalCard>
       </div>
         </div>
     </diV>
