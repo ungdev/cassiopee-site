@@ -80,7 +80,7 @@ backTitle=""> </VerticalCard>
       <div  class="fliprow">
         <div>
           <h2>Ch'UTT de vers</h2>
-        <VerticalCard front-title=" " img="background-image: url( /stand/nereides.jpeg)" back-text=" Les enfants et les curieux pourront percer à jour le doublage à travers un atelier proposé par les Ch’UTT de vers, la célèbre troupe de théâtre de l’UTT  ; et partager un bon moment chantant autour d’un karaoké organisé par la chorale Lalal’UTT."
+        <VerticalCard front-title=" " img="background-image: url( /stand/theatre.png)" back-text=" Les enfants et les curieux pourront percer à jour le doublage à travers un atelier proposé par les Ch’UTT de vers, la célèbre troupe de théâtre de l’UTT  ; et partager un bon moment chantant autour d’un karaoké organisé par la chorale Lalal’UTT."
 backTitle=""></VerticalCard>
         </div>
         <div>
@@ -110,7 +110,7 @@ backTitle=""></VerticalCard>
         </div>
         <div>
           <h2>Flocons sur les flots</h2>
-        <VerticalCard front-title=" " img="background-image: url( /stand/canard.jpg)" back-text="un tour de l'Atlantique à la voile, voyage de 11 mois pour apprivoiser l’océan, à partir d’août 2024 avec 18 000 km à parcourir."
+        <VerticalCard front-title=" " img="background-image: url( /stand/voilier.webp)" back-text="un tour de l'Atlantique à la voile, voyage de 11 mois pour apprivoiser l’océan, à partir d’août 2024 avec 18 000 km à parcourir."
         backTitle=""></VerticalCard>
         </div> 
       </div>
@@ -118,7 +118,7 @@ backTitle=""></VerticalCard>
         <div  class="fliprow seul">
         <h2>Ulisse</h2>
         <br>
-        <VerticalCard front-title=" " img="background-image: url( /stand/lunette.jpeg)" back-text="L’association Ulisse (Union Locale d'Ingénierie Sociale, Solidaire et Environnementale) fera participer petits et grands à un blind test sur le miel et offrira un temps convivial de fabrication d’éponges."
+        <VerticalCard front-title=" " img="background-image: url( /stand/ulisse.png)" back-text="L’association Ulisse (Union Locale d'Ingénierie Sociale, Solidaire et Environnementale) fera participer petits et grands à un blind test sur le miel et offrira un temps convivial de fabrication d’éponges."
 backTitle=""></VerticalCard>
       </div>
         </div>
