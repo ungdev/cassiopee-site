@@ -55,7 +55,7 @@ import Slideshow from './Components/Slideshow.vue';
         <div class="fliprow">
           <div>
             <h2>Troyes Racing Team</h2>
-            <VerticalCard front-title="" img="background-image: url( /stand/fanfare.jpg)" back-text="L’association Troyes Racing Team présentera son projet de conception et fabrication d’une voiture de course (qui se rapproche de la formule 1) et organisera une course de voitures télécommandées. " backTitle=""></VerticalCard>
+            <VerticalCard front-title="" img="background-image: url(/stand/club-f1.png)" back-text="L’association Troyes Racing Team présentera son projet de conception et fabrication d’une voiture de course (qui se rapproche de la formule 1) et organisera une course de voitures télécommandées. " backTitle=""></VerticalCard>
           </div>
           <div>
             <h2>Robotik'UTT</h2>
