@@ -55,7 +55,7 @@ import Slideshow from './Components/Slideshow.vue';
         <div class="fliprow">
           <div>
             <h2>Troyes Racing Team</h2>
-            <VerticalCard front-title="" img="background-image: url( /stand/fanfare.jpg)" back-text="L’association Troyes Racing Team présentera son projet de conception et fabrication d’une voiture de course (qui se rapproche de la formule 1) et organisera une course de voitures télécommandées. " backTitle=""></VerticalCard>
+            <VerticalCard front-title="" img="background-image: url(/stand/club-f1.png)" back-text="L’association Troyes Racing Team présentera son projet de conception et fabrication d’une voiture de course (qui se rapproche de la formule 1) et organisera une course de voitures télécommandées. " backTitle=""></VerticalCard>
           </div>
           <div>
             <h2>Robotik'UTT</h2>
@@ -80,7 +80,7 @@ backTitle=""> </VerticalCard>
       <div  class="fliprow">
         <div>
           <h2>Ch'UTT de vers</h2>
-        <VerticalCard front-title=" " img="background-image: url( /stand/nereides.jpeg)" back-text=" Les enfants et les curieux pourront percer à jour le doublage à travers un atelier proposé par les Ch’UTT de vers, la célèbre troupe de théâtre de l’UTT  ; et partager un bon moment chantant autour d’un karaoké organisé par la chorale Lalal’UTT."
+        <VerticalCard front-title=" " img="background-image: url( /stand/theatre.png)" back-text=" Les enfants et les curieux pourront percer à jour le doublage à travers un atelier proposé par les Ch’UTT de vers, la célèbre troupe de théâtre de l’UTT  ; et partager un bon moment chantant autour d’un karaoké organisé par la chorale Lalal’UTT."
 backTitle=""></VerticalCard>
         </div>
         <div>
@@ -110,7 +110,7 @@ backTitle=""></VerticalCard>
         </div>
         <div>
           <h2>Flocons sur les flots</h2>
-        <VerticalCard front-title=" " img="background-image: url( /stand/canard.jpg)" back-text="un tour de l'Atlantique à la voile, voyage de 11 mois pour apprivoiser l’océan, à partir d’août 2024 avec 18 000 km à parcourir."
+        <VerticalCard front-title=" " img="background-image: url( /stand/voilier.webp)" back-text="un tour de l'Atlantique à la voile, voyage de 11 mois pour apprivoiser l’océan, à partir d’août 2024 avec 18 000 km à parcourir."
         backTitle=""></VerticalCard>
         </div> 
       </div>
@@ -118,7 +118,7 @@ backTitle=""></VerticalCard>
         <div  class="fliprow seul">
         <h2>Ulisse</h2>
         <br>
-        <VerticalCard front-title=" " img="background-image: url( /stand/lunette.jpeg)" back-text="L’association Ulisse (Union Locale d'Ingénierie Sociale, Solidaire et Environnementale) fera participer petits et grands à un blind test sur le miel et offrira un temps convivial de fabrication d’éponges."
+        <VerticalCard front-title=" " img="background-image: url( /stand/ulisse.png)" back-text="L’association Ulisse (Union Locale d'Ingénierie Sociale, Solidaire et Environnementale) fera participer petits et grands à un blind test sur le miel et offrira un temps convivial de fabrication d’éponges."
 backTitle=""></VerticalCard>
       </div>
         </div>
@@ -159,6 +159,14 @@ backTitle="L'instant Breton"></VerticalCard>
 
     <div id="soirée">
       <div class="box">
+        <br>
+        <div style="width: 100%; display: flex; align-items: left;">
+        <h1 class="title">Plan de L'après-midi</h1>
+      </div>
+      <img src="/src/assets/stand/2.png" alt="plan-aprem" width="90%"/>
+      <br><br>  
+    </div>
+    <div class="box-light">
       <br>
       <div style="width: 100%; display: flex; align-items: left;">
         <h1 class="title">Localisation</h1>
@@ -167,6 +175,14 @@ backTitle="L'instant Breton"></VerticalCard>
       <img src="/src/assets/graphisme/renard qui dort.png" alt="parcours" class="box-img-bottom"/>
       <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2655.751217881598!2d4.064201176516134!3d48.26916197125829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ee99a0cb4a3a57%3A0x42148ce859fa2d02!2sUniversit%C3%A9%20de%20Technologie%20de%20Troyes!5e0!3m2!1sfr!2sfr!4v1713106420010!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       <br><br>
+    </div>
+      <div class="box">
+        <br>
+        <div style="width: 100%; display: flex; align-items: left;">
+          <h1 class="title">Plan de la Soirée</h1>
+        </div>
+        <img src="/src/assets/stand/3.png" alt="plan-soirée" width="90%"/>
+        <br><br>
     </div>
       <br id="artiste"><br>
       <div style="width: 100%; display: flex; align-items: left;">
@@ -201,8 +217,28 @@ backTitle="L'instant Breton"></VerticalCard>
         <VerticalCard back-title="Cocktails sans alcools" back-text="Nos étudiants vous servirons une selection de vos cocktails préférés mais revisité sans alcools" img="background-image: url( /stand/cocktails.jpeg)" ></VerticalCard>
         <VerticalCard back-title="Smoothie et Bubble Tea" back-text="Nous vous proposerons des smoothies aux frutis de saisons et des bubbles tea" img="background-image: url( /stand/smoothie.jpeg)"></VerticalCard>
       </div>
-      
-      <br>
+      <div class="box">
+        <h1>Informations</h1><br>
+        <h2>Horaires des navettes</h2>
+            <p>Des navettes seront disponibles (trajet Beurnonville; Gillon; UTT) aux horaires suivants{' '}
+              <em>(horaires à l'arrêt Beurnonville)</em>:
+              <br />
+              20h15 - 20h30 - 21h00 - 21h15 - 21h30 - 22h00 - 22h15 - 22h30 - 22h45 - 23h00 - 23h15 - 23h30 - 23h45
+              <br />
+              <br />
+              Des navettes seront disponibles (trajet UTT; Gillon; Beurnonville) aux horaires suivants{' '}
+              <em>(horaires au parking de l'UTT)</em>:
+              
+              1h00 - 1h30 - 2h00 - 2h30 - 3h00 - 3h30 - 3h45 - 4h00 - 4h15 - 4h30 - 4h45 - 5h00 - 5h15</p>
+        <h2>Sécurité</h2>
+        <p>Une palpation est organisée à l’entrée du site de Cassiopée.</p>
+            <p>
+              Il est interdit de se présenter en possession d’armes (y compris les armes d’autodéfense), d’objets
+              explosifs ou inflammables, de spray anti-agression, déodorants ou aérosols, d’objets tranchants ou
+              contondants, d’outils et objets métalliques, d’objets encombrants (casque de moto, antivols...), des
+              récipients (pleins ou vides), de la nourriture ou des boissons, drogue et stupéfiants.
+            </p>
+      </div>
       <br>
       <div class="box">
       <div style="width: 100%; display: flex; align-items: flex-end;">
@@ -247,6 +283,20 @@ backTitle="L'instant Breton"></VerticalCard>
 .box{
   position: relative;
   background: rgba(0,0,0,0.2);  
+  background-size: cover;
+  padding-top: 5px; 
+  padding-left: 20%;
+  padding-right: 20%;
+  border-radius: 10px;
+}
+.box p{
+  color: aliceblue;
+}
+.box img{
+  align-items: center;
+}
+.box-light{
+  position: relative;
   background-size: cover;
   padding-top: 5px; 
   padding-left: 20%;
