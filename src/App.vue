@@ -161,11 +161,13 @@ backTitle="L'instant Breton"></VerticalCard>
     <div id="soirée">
       <div class="box">
         <br>
-        <div style="width: 100%; display: flex; align-items: left;">
+        <div class="plan">
+          <div style=" width : 100%;display: flex; align-items: left;">
         <h1 class="title">Plan de L'après-midi</h1>
       </div>
       <img src="/src/assets/stand/2.png" alt="plan-aprem" width="90%"/>
-      <br><br>  
+      <br><br>
+        </div> 
     </div>
     <div class="box-light">
       <br>
@@ -179,11 +181,14 @@ backTitle="L'instant Breton"></VerticalCard>
     </div>
       <div class="box">
         <br>
-        <div style="width: 100%; display: flex; align-items: left;">
+        <div class="plan">
+          <div style="width:100%;display: flex; align-items: left;">
           <h1 class="title">Plan de la Soirée</h1>
         </div>
         <img src="/src/assets/stand/3.png" alt="plan-soirée" width="90%"/>
         <br><br>
+        </div>
+        
     </div>
       <br id="artiste"><br>
       <div style="width: 100%; display: flex; align-items: left;">
@@ -206,9 +211,12 @@ Crêpe au sucre : 2,50€
 Crêpe Nutella : 3€ 
 Crêpe (Beurre-sucre, caramel beurre salé, miel amandes effilées, pâte à tartiner Ô délice de Lucas, confiture) : 3,50 €"
 backTitle="L'instant Breton"></VerticalCard>
-        <VerticalCard front-title=" " back-title="Donuts d'Omer" back-text="Grand Donuts : 2,8€
-        Petit Donuts : 1,8€
-        Salade de Fruit : 2€" img="background-image: url( /stand/omer.webp)" ></VerticalCard>
+        <VerticalCard front-title=" " back-title="Camion Gourmet" back-text="Pour vous restaurer pendant la soirée, un deuxième food truck sera présent : Le camion gourmet 🍽️
+Au menu, des burger (bœuf ou végétarien) pour 9€, ou des frites pour 3€ !" img="background-image: url( /stand/camion-gourmet-camion.jpg)" ></VerticalCard>
+      </div>
+      <div  class="fliprow seul">
+        <VerticalCard front-title=" " back-title="Le saisonnier" back-text="Le saisonnier propose des poutines en tout genre.
+Retrouvez Le saisonnier de 20h à 3h30 lors de Cassiopée-Festival UTT" img="background-image: url( /stand/saisonnier.jpg)" ></VerticalCard>
       </div>
     </div>
       <br>
@@ -268,6 +276,12 @@ backTitle="L'instant Breton"></VerticalCard>
 </template>
 
 <style scoped>
+.plan{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
 .box-img-top{
   position: absolute;
   width: 20%; 
