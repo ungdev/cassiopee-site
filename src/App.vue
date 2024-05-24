@@ -229,7 +229,8 @@ Retrouvez Le saisonnier de 20h à 3h30 lors de Cassiopée-Festival UTT" img="bac
       <div class="box">
         <h1>Informations</h1><br>
         <h2>Horaires des navettes</h2>
-            <p>Des navettes seront disponibles (trajet Beurnonville; Gillon; UTT) aux horaires suivants{' '}
+            <p>Plusieurs navettes feront l’aller retour entre le centre de Troyes et l’UTT tout au long de la soirée.</p>
+            <p>Des navettes seront disponibles (trajet UTT; Gillon; Beurnonville) aux horaires suivants : 
               <em>(horaires à l'arrêt Beurnonville)</em>:
               <br />
               20h15 - 20h30 - 21h00 - 21h15 - 21h30 - 22h00 - 22h15 - 22h30 - 22h45 - 23h00 - 23h15 - 23h30 - 23h45
