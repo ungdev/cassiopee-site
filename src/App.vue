@@ -158,13 +158,18 @@ backTitle="L'instant Breton"></VerticalCard>
     </div>
 
     <div id="soirée">
+      
       <div class="box">
         <br>
-        <div style="width: 100%; display: flex; align-items: left;">
+        <h1 class="title-soirée" style="font-size: 36px;">Soirée</h1>
+        <br>
+        <div class="plan">
+          <div style=" width : 100%;display: flex; align-items: left;">
         <h1 class="title">Plan de L'après-midi</h1>
       </div>
       <img src="/src/assets/stand/2.png" alt="plan-aprem" width="90%"/>
-      <br><br>  
+      <br><br>
+        </div> 
     </div>
     <div class="box-light">
       <br>
@@ -178,11 +183,14 @@ backTitle="L'instant Breton"></VerticalCard>
     </div>
       <div class="box">
         <br>
-        <div style="width: 100%; display: flex; align-items: left;">
+        <div class="plan">
+          <div style="width:100%;display: flex; align-items: left;">
           <h1 class="title">Plan de la Soirée</h1>
         </div>
         <img src="/src/assets/stand/3.png" alt="plan-soirée" width="90%"/>
         <br><br>
+        </div>
+        
     </div>
       <br id="artiste"><br>
       <div style="width: 100%; display: flex; align-items: left;">
@@ -193,8 +201,8 @@ backTitle="L'instant Breton"></VerticalCard>
         <CopilotBook/>
       </div>
       <br>
-      <div class="box">
-      <h2 id="restauration2"> Restauration</h2>
+      <diV class="box">
+      <h2 id="restauration2">Restauration</h2>
       <img src="/src/assets/graphisme/mouton fier.png" alt="parcours" class="box-img-top" style="right: 0%;"/>
       <img src="/src/assets/graphisme/Goateeeee.png" alt="parcours" class="box-img-bottom"/>
       <br>
@@ -205,14 +213,20 @@ Crêpe au sucre : 2,50€
 Crêpe Nutella : 3€ 
 Crêpe (Beurre-sucre, caramel beurre salé, miel amandes effilées, pâte à tartiner Ô délice de Lucas, confiture) : 3,50 €"
 backTitle="L'instant Breton"></VerticalCard>
-        <VerticalCard front-title=" " back-title="Donuts d'Omer" back-text="Grand Donuts : 2,8€
-        Petit Donuts : 1,8€
-        Salade de Fruit : 2€" img="background-image: url( /stand/omer.webp)" ></VerticalCard>
+        <VerticalCard front-title=" " back-title="Camion Gourmet" back-text="Pour vous restaurer pendant la soirée, un deuxième food truck sera présent : Le camion gourmet 🍽️
+Au menu, des burger (bœuf ou végétarien) pour 9€, ou des frites pour 3€ !" img="background-image: url( /stand/camion-gourmet-camion.jpg)" ></VerticalCard>
       </div>
-    </div>
+      <div style="display: flex; flex-direction: column; align-items: center">   
+        <div  class="fliprow seul">
+          <br>
+        <VerticalCard front-title=" " back-title="Le saisonnier" back-text="Le saisonnier propose des poutines en tout genre.
+Retrouvez Le saisonnier de 20h à 3h30 lors de Cassiopée-Festival UTT" img="background-image: url( /stand/saisonnier.jpg)" ></VerticalCard>
+      </div>
+        </div>
+    </diV>
       <br>
       <h2 id="boisson2">Boissons</h2>
-<br>
+      <br>
       <div  class="fliprow">
         <VerticalCard back-title="Cocktails sans alcools" back-text="Nos étudiants vous servirons une selection de vos cocktails préférés mais revisité sans alcools" img="background-image: url( /stand/cocktails.jpeg)" ></VerticalCard>
         <VerticalCard back-title="Smoothie et Bubble Tea" back-text="Nous vous proposerons des smoothies aux frutis de saisons et des bubbles tea" img="background-image: url( /stand/smoothie.jpeg)"></VerticalCard>
@@ -220,7 +234,13 @@ backTitle="L'instant Breton"></VerticalCard>
       <div class="box">
         <h1>Informations</h1><br>
         <h2>Horaires des navettes</h2>
-            <p>Des navettes seront disponibles (trajet Beurnonville; Gillon; UTT) aux horaires suivants{' '}
+            <div class="navette">
+              <img src="/src/assets/2.png" alt="navette" width="50%"/>
+              <img src="/src/assets/3.png" alt="navette" width="50%"/>
+            </div>
+            <br>
+            <p>Plusieurs navettes feront l’aller retour entre le centre de Troyes et l’UTT tout au long de la soirée.</p>
+            <p>Des navettes seront disponibles (trajet UTT; Gillon; Beurnonville) aux horaires suivants : 
               <em>(horaires à l'arrêt Beurnonville)</em>:
               <br />
               20h15 - 20h30 - 21h00 - 21h15 - 21h30 - 22h00 - 22h15 - 22h30 - 22h45 - 23h00 - 23h15 - 23h30 - 23h45
@@ -257,7 +277,7 @@ backTitle="L'instant Breton"></VerticalCard>
         <h1  >Equipe Cassiopée</h1>
       </div>
       <div id="trombi">
-        <img src="@\assets\petit-prince.jpg"  alt="Image" />
+        <img src="/public/stand/Trombinoscope Cassiopée 2024.png"  alt="Image" />
       </div>
       
     </div>
@@ -267,6 +287,24 @@ backTitle="L'instant Breton"></VerticalCard>
 </template>
 
 <style scoped>
+.title-soirée{
+  color: aliceblue;
+  margin-left: 5%;
+  text-align: center;
+}
+.navette{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+}
+.plan{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
 .box-img-top{
   position: absolute;
   width: 20%; 
@@ -374,6 +412,9 @@ min-height: 25vh;
   border-radius: 10px;
 }
 @media (max-width: 1000px) {  
+  .navette{
+    display: none;
+  }
   .text-container {
     width: 100%;
   }
