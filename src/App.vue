@@ -161,8 +161,7 @@ backTitle="L'instant Breton"></VerticalCard>
       
       <div class="box">
         <br>
-        <h1 class="title-soirée" style="font-size: 36px;">Soirée</h1>
-        <br>
+        
         <div class="plan">
           <div style=" width : 100%;display: flex; align-items: left;">
         <h1 class="title">Plan de L'après-midi</h1>
@@ -180,8 +179,13 @@ backTitle="L'instant Breton"></VerticalCard>
       <img src="/src/assets/graphisme/renard qui dort.png" alt="parcours" class="box-img-bottom"/>
       <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2655.751217881598!2d4.064201176516134!3d48.26916197125829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ee99a0cb4a3a57%3A0x42148ce859fa2d02!2sUniversit%C3%A9%20de%20Technologie%20de%20Troyes!5e0!3m2!1sfr!2sfr!4v1713106420010!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       <br><br>
+      <br>
     </div>
+    
       <div class="box">
+        <br>
+        <br>
+        <h1 class="title-soirée" style="font-size: 36px;">Soirée</h1>
         <br>
         <div class="plan">
           <div style="width:100%;display: flex; align-items: left;">
@@ -228,8 +232,8 @@ Retrouvez Le saisonnier de 20h à 3h30 lors de Cassiopée-Festival UTT" img="bac
       <h2 id="boisson2">Boissons</h2>
       <br>
       <div  class="fliprow">
-        <VerticalCard back-title="Cocktails sans alcools" back-text="Nos étudiants vous servirons une selection de vos cocktails préférés mais revisité sans alcools" img="background-image: url( /stand/cocktails.jpeg)" ></VerticalCard>
-        <VerticalCard back-title="Smoothie et Bubble Tea" back-text="Nous vous proposerons des smoothies aux frutis de saisons et des bubbles tea" img="background-image: url( /stand/smoothie.jpeg)"></VerticalCard>
+        <VerticalCard back-title="Cocktails" back-text="Nos étudiants vous servirons une selection de vos cocktails préférés (Spritz, Kir, Rosé Pamplemousse ) et sans alcool ( Virgin Mojito, Virgin Pina-Colada)" img="background-image: url( /stand/cocktails.jpeg)" ></VerticalCard>
+        <VerticalCard back-title="Bières" back-text="Nous vous proposerons des bieres local et internationnal : IPA, Neipa, Pills, Kreik et Licorne Blonde" img="background-image: url( /stand/biere.webp)"></VerticalCard>
       </div>
       <div class="box">
         <h1>Informations</h1><br>

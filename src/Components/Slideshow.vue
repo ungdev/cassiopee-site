@@ -59,6 +59,16 @@ const slides = [
         captionTitre: "Provexi",
         captionTxt: "Provexi"
     },
+    {
+        image: "/part/Logo affiche/UTT_couleur.png",
+        captionTitre: "UTT",
+        captionTxt: "UTT"
+    },
+    {
+        image: "/part/Logo affiche/Distributeur de boissons pour les professionnels.png",
+        captionTitre: "Charreau",
+        captionTxt: "Charreau"
+    }
 ];
 
 </script>
