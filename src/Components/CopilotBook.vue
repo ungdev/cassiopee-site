@@ -102,6 +102,7 @@ export default {
 }
 .right{
     justify-content: center;
+
 }
 
 @media (min-width:900px ){
@@ -155,7 +156,9 @@ export default {
     }
     .navigation {
         flex-direction: column;
+
     }
+
 }
 .page-enter-active,
 .page-leave-active {
