@@ -13,7 +13,7 @@
             </div>
             <vue3-flip-countdown class="countdown"
             countdownSize="3rem" labelSize="1.2rem" labelColor="#FFFFFF" 
-            deadlineISO="2024-06-01T15:00:00.481Z" 
+            deadlineISO="2024-06-01T14:00:00" 
             :flipAnimation="false" mainColor="#FFFFFF" secondFlipColor="#ffffff"/>
         </div>      
     </div>

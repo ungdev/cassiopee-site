@@ -62,7 +62,7 @@ const slides = [
     {
         image: "/part/Logo affiche/UTT_couleur.png",
         captionTitre: "UTT",
-        captionTxt: "
+        captionTxt: "UTT"
         },
     {
         image: "/part/Logo affiche/Distributeur de boissons pour les professionnels.png",
