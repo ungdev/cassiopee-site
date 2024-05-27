@@ -16,7 +16,7 @@ import Slideshow from './Components/Slideshow.vue';
   <body>
     <Timer />
 
-    
+  <div id="grad">
     <div id="aprem">
         <div style="width: 100%; display: flex; align-items: left;">
         <h1 class="title">Qu'est ce que c'est Cassiopée ?</h1>
@@ -47,65 +47,97 @@ import Slideshow from './Components/Slideshow.vue';
       <div style="width: 100%; display: flex; align-items: flex-end;">
         <h1 id="stand" >Stands</h1>
       </div>
+      <div class="box">
+        <h2> Parcours Mouton : Apprendre et S'amuser </h2>
+        <img src="/src/assets/graphisme/Etoile.png" alt="parcours" class="box-img-top"/>
+        <img src="/src/assets/graphisme/Goateeeee.png" alt="parcours" class="box-img-bottom"/>
+        <br>
+        <div class="fliprow">
+          <div>
+            <h2>Troyes Racing Team</h2>
+            <VerticalCard front-title="" img="background-image: url(/stand/club-f1.png)" back-text="L’association Troyes Racing Team présentera son projet de conception et fabrication d’une voiture de course (qui se rapproche de la formule 1) et organisera une course de voitures télécommandées. " backTitle=""></VerticalCard>
+          </div>
+          <div>
+            <h2>Robotik'UTT</h2>
+          <VerticalCard front-title=" " img="background-image: url( /stand/robot.jpeg)" back-text="Le club Robotik UTT organisera un Rocket League grandeur nature, un football avec des voitures téléguidées. Pour les connaisseurs du jeu vidéo ou pour les curieux, c’est l’occasion de manier et de découvrir une voiture faite maison.  "
+backTitle=""> </VerticalCard>
+          </div>
+        </div>
+        <div style="display: flex; flex-direction: column; align-items: center">
+          
+          <div  class="fliprow seul">
+            <h2>Dessine un mouton</h2>
+            <VerticalCard front-title="" img="background-image: url( /stand/mouton.jpg)" back-text=" Les âmes d’enfants pourront participer à l’activité “dessine-moi un mouton”, et fabriquer des bracelets brésiliens et de petits paniers en tissus ou autres décorations avec le club Tiss’UTT, club couture des étudiants."
+              backTitle=""> </VerticalCard>
+          </div>
+        </div>
+      </div>      
       <br>
-      <h2> Parcours Mouton : Apprendre et S'amuser </h2>
-      <br>
+      <h2> Parcours Rose : Partager et Grandir</h2> 
+      
+      <br><br>
       
       <div  class="fliprow">
-        <VerticalCard front-title=" " img="background-image: url(/stand/cupcake.jpg)" back-text="Les enfants et gourmands pourront s’amuser lors d’un atelier de décoration de cupcake sur le thème du Petit Prince" backTitle="Décors ton cupcake"></VerticalCard>
-        <VerticalCard front-title=" " img="background-image: url( /stand/mouton.jpg)" back-text=" “Dessine-moi un mouton”, phrase culte du conte, va tester la créativité des petits et grands en proposant de réaliser le souhait du Petit Prince."
-backTitle="Dessine-moi un mouton"> </VerticalCard>
+        <div>
+          <h2>Ch'UTT de vers</h2>
+        <VerticalCard front-title=" " img="background-image: url( /stand/theatre.png)" back-text=" Les enfants et les curieux pourront percer à jour le doublage à travers un atelier proposé par les Ch’UTT de vers, la célèbre troupe de théâtre de l’UTT  ; et partager un bon moment chantant autour d’un karaoké organisé par la chorale Lalal’UTT."
+backTitle=""></VerticalCard>
+        </div>
+        <div>
+          <h2>Sec'UTT</h2>
+        <VerticalCard front-title=" " img="background-image: url( /stand/secutt.jpeg)" back-text="Pour les aventuriers, Sec’UTT, l’association étudiante de secourisme, veillera à ce qu’ils ne soient pas en détresse lors de leurs prochains défis, en proposant un parcours de brancardage et une activité sur le massage cardiaque. "
+backTitle=""></VerticalCard>
+        </div>
       </div>
       <div  class="fliprow seul">
-        <VerticalCard front-title=" " img="background-image: url( /stand/canard.jpg)" back-text="Un espace détente sera mis en place avec des jeux tels qu’un chamboule tout ou une pêche aux canards. "
-backTitle="Kermesse'UTT"></VerticalCard>
-      </div>
-      <br>
-      <h2> Parcours Rose : Partager et Grandir</h2>  
-      <br><br>
-   
-      <div  class="fliprow">
-        <VerticalCard front-title=" " img="background-image: url( /stand/nereides.jpeg)" back-text=" Les amateurs de voyages ou ceux qui veulent naviguer de planètes en planètes, pourront découvrir le bateau fabriqué par le Projet étudiant Néréides, qui a pour but de créer un bateau éco-responsable et durable, afin de participer au Monaco Energy Boat Challenge."
-backTitle="Nereides"></VerticalCard>
-        <VerticalCard front-title=" " img="background-image: url( /stand/nano.jpg)" back-text="Les étudiants présenteront les expériences du laboratoire lumière, nanomatériaux et nanotechnologies de manière ludique. "
-backTitle="Nanotechnologies"></VerticalCard>
-
-      </div>
-      <div  class="fliprow seul">
-        <VerticalCard front-title=" " img="background-image: url( /stand/voilier.webp)" back-text=" Un atelier de sensibilisation et de découverte du monde marin est proposé par deux jeunes futurs ingénieurs en pleine préparation d’un Tour de l'Atlantique à la voile, voyage de 11 mois à partir d’août 2024 "
-backTitle="Flocon sur les flots"></VerticalCard>
+        <h2>Pôle santé</h2>
+        <VerticalCard front-title=" " img="background-image: url( /stand/lunette.jpeg)" back-text="Le pôle Santé fera découvrir de manière ludique les effets néfastes de l’alcool, de la drogue ou de la fatigue sur le corps humain, avec un parcours d’obstacle à effectuer en portant des lunettes de simulation reproduisant ces effets."
+backTitle=""></VerticalCard>
 
       </div>
 
       <br>
-
+      <diV class="box">
       <h2> Parcours Renard : Aimer et Apprivoiser </h2>
+      <img src="/src/assets/graphisme/petit prince réfléchit.png" alt="parcours" class="box-img-top"/>
+      <img src="/src/assets/graphisme/mouton de dos.png" alt="parcours" class="box-img-bottom"/>
       <br>
       <br>
       <div  class="fliprow">
-        <VerticalCard front-title=" " img="background-image: url( /stand/secutt.jpeg)" back-text="L’association étudiante de secourisme proposera un parcours de brancardage ainsi qu’une activité sur le massage cardiaque."></VerticalCard>
-        <VerticalCard front-title=" " img="background-image: url( /stand/robot.jpeg)" back-text="Le club Robotik UTT organisera un Rocket League grandeur nature, un football avec des voitures téléguidées. Pour les connaisseurs du jeu vidéo ou pour les curieux, c’est l’occasion de manier et de découvrir une voiture faite maison.  "
-backTitle="Robotik'UTT"> </VerticalCard>
+        <div>
+          <h2>Néréides</h2>
+          <VerticalCard front-title=" " img="background-image: url( /stand/nereides.jpeg)" back-text="L’association Néréides présentera un bateau éco-responsable et durable, en cours de construction en vue de sa participation au Monaco Energy Boat Challenge."></VerticalCard>
+        </div>
+        <div>
+          <h2>Flocons sur les flots</h2>
+        <VerticalCard front-title=" " img="background-image: url( /stand/voilier.webp)" back-text="un tour de l'Atlantique à la voile, voyage de 11 mois pour apprivoiser l’océan, à partir d’août 2024 avec 18 000 km à parcourir."
+        backTitle=""></VerticalCard>
+        </div> 
       </div>
-      <div  class="fliprow seul">
-        <VerticalCard front-title=" " img="background-image: url( /stand/lunette.jpeg)" back-text="L’infirmerie fera découvrir les effets de l’alcool avec un parcours d’obstacle avec des lunettes imitant ses effets "
-backTitle="Pôle Santé"></VerticalCard>
+      <div style="display: flex; flex-direction: column; align-items: center">   
+        <div  class="fliprow seul">
+        <h2>Ulisse</h2>
+        <br>
+        <VerticalCard front-title=" " img="background-image: url( /stand/ulisse.png)" back-text="L’association Ulisse (Union Locale d'Ingénierie Sociale, Solidaire et Environnementale) fera participer petits et grands à un blind test sur le miel et offrira un temps convivial de fabrication d’éponges."
+backTitle=""></VerticalCard>
       </div>
-      <br>
-
-<h2> Animations</h2>
+        </div>
+    </diV>
+<h2 id="animation"> Animations</h2>
 <br>
 <br>
       <div  class="fliprow">
-        <VerticalCard front-title=" " img="background-image: url( /stand/cheers.jpg)" back-text="L'équipe de Cheerleeding de l'UTT proposera un show de leur meilleurs performances."
-backTitle="Cheers’UTT" ></VerticalCard>
+        <VerticalCard front-title=" " img="background-image: url( /stand/cheers.jpg)" back-text="L'équipe de Cheerleeding de l'UTT proposera un show de leur meilleurs performances." backTitle="Cheers’UTT" ></VerticalCard>
         <VerticalCard front-title=" " back-text="Peacetone Brass Band,  la fanfare de l’UTT proposera un extrait de leur meilleurs reprises musicales " back-title="Peacetone Brass Band" img="background-image: url( /stand/fanfare.jpg)"></VerticalCard>
       </div>
       <br>
-      <h2> Restauration</h2>
-<br>
-<br>
-      <div  class="fliprow">
+      <div class="box">
+        <img src="/src/assets/graphisme/mouton fier.png" alt="parcours" class="box-img-top" style="right: 0%;"/>
+      <img src="/src/assets/graphisme/Goateeeee.png" alt="parcours" class="box-img-bottom"/>
+        <h2 id="restauration"> Restauration</h2>
+        <br>
+        <br>
+        <div  class="fliprow">
         <VerticalCard front-title=" " img="background-image: url( /stand/instantbreton1.jpeg)" back-text="Galette(complète, saucisse et végétarienne) : 7€
 Crêpe au sucre : 2,50€
 Crêpe Nutella : 3€ 
@@ -115,54 +147,205 @@ backTitle="L'instant Breton"></VerticalCard>
         Petit Donuts : 1,8€
         Salade de Fruit : 2€" img="background-image: url( /stand/omer.webp)" ></VerticalCard>
       </div>
+    </div>
       <br>
-      <h2>Boissons</h2>
+      <h2 id="boisson">Boissons</h2>
 <br>
       <div  class="fliprow">
         <VerticalCard back-title="Cocktails sans alcools" back-text="Nos étudiants vous servirons une selection de vos cocktails préférés mais revisité sans alcools" img="background-image: url( /stand/cocktails.jpeg)" ></VerticalCard>
         <VerticalCard back-title="Smoothie et Bubble Tea" back-text="Nous vous proposerons des smoothies aux frutis de saisons et des bubbles tea" img="background-image: url( /stand/smoothie.jpeg)"></VerticalCard>
       </div>
     </div>
-    <div id="grad">
-    </div>
 
     <div id="soirée">
+      
+      <div class="box">
+        <br>
+        
+        <div class="plan">
+          <div style=" width : 100%;display: flex; align-items: left;">
+        <h1 class="title">Plan de L'après-midi</h1>
+      </div>
+      <img src="/src/assets/stand/2.png" alt="plan-aprem" width="90%"/>
+      <br><br>
+        </div> 
+    </div>
+    <div class="box-light">
+      <br>
       <div style="width: 100%; display: flex; align-items: left;">
         <h1 class="title">Localisation</h1>
       </div>
+      <img src="/src/assets/graphisme/Planète anneau.png" alt="parcours" class="box-img-top"/>
+      <img src="/src/assets/graphisme/renard qui dort.png" alt="parcours" class="box-img-bottom"/>
       <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2655.751217881598!2d4.064201176516134!3d48.26916197125829!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47ee99a0cb4a3a57%3A0x42148ce859fa2d02!2sUniversit%C3%A9%20de%20Technologie%20de%20Troyes!5e0!3m2!1sfr!2sfr!4v1713106420010!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       <br><br>
+      <br>
+    </div>
+    
+      <div class="box">
+        <br>
+        <br>
+        <h1 class="title-soirée" style="font-size: 36px;">Soirée</h1>
+        <br>
+        <div class="plan">
+          <div style="width:100%;display: flex; align-items: left;">
+          <h1 class="title">Plan de la Soirée</h1>
+        </div>
+        <img src="/src/assets/stand/3.png" alt="plan-soirée" width="90%"/>
+        <br><br>
+        </div>
+        
+    </div>
+      <br id="artiste"><br>
       <div style="width: 100%; display: flex; align-items: left;">
         <h1 class="title">Artistes</h1>
       </div>
       <br>
-      <div style="width: 100%;">
+      <div style="width: 100%;" >
         <CopilotBook/>
       </div>
       <br>
+      <diV class="box">
+      <h2 id="restauration2">Restauration</h2>
+      <img src="/src/assets/graphisme/mouton fier.png" alt="parcours" class="box-img-top" style="right: 0%;"/>
+      <img src="/src/assets/graphisme/Goateeeee.png" alt="parcours" class="box-img-bottom"/>
       <br>
+      <br>
+      <div  class="fliprow">
+        <VerticalCard front-title=" " img="background-image: url( /stand/instantbreton1.jpeg)" back-text="Galette(complète, saucisse et végétarienne) : 7€
+Crêpe au sucre : 2,50€
+Crêpe Nutella : 3€ 
+Crêpe (Beurre-sucre, caramel beurre salé, miel amandes effilées, pâte à tartiner Ô délice de Lucas, confiture) : 3,50 €"
+backTitle="L'instant Breton"></VerticalCard>
+        <VerticalCard front-title=" " back-title="Camion Gourmet" back-text="Pour vous restaurer pendant la soirée, un deuxième food truck sera présent : Le camion gourmet 🍽️
+Au menu, des burger (bœuf ou végétarien) pour 9€, ou des frites pour 3€ !" img="background-image: url( /stand/camion-gourmet-camion.jpg)" ></VerticalCard>
+      </div>
+      <div style="display: flex; flex-direction: column; align-items: center">   
+        <div  class="fliprow seul">
+          <br>
+        <VerticalCard front-title=" " back-title="Le saisonnier" back-text="Le saisonnier propose des poutines en tout genre.
+Retrouvez Le saisonnier de 20h à 3h30 lors de Cassiopée-Festival UTT" img="background-image: url( /stand/saisonnier.jpg)" ></VerticalCard>
+      </div>
+        </div>
+    </diV>
+      <br>
+      <h2 id="boisson2">Boissons</h2>
+      <br>
+      <div  class="fliprow">
+        <VerticalCard back-title="Cocktails" back-text="Nos étudiants vous servirons une selection de vos cocktails préférés (Spritz, Kir, Rosé Pamplemousse ) et sans alcool ( Virgin Mojito, Virgin Pina-Colada)" img="background-image: url( /stand/cocktails.jpeg)" ></VerticalCard>
+        <VerticalCard back-title="Bières" back-text="Nous vous proposerons des bieres local et internationnal : IPA, Neipa, Pills, Kreik et Licorne Blonde" img="background-image: url( /stand/biere.webp)"></VerticalCard>
+      </div>
+      <div class="box">
+        <h1>Informations</h1><br>
+        <h2>Horaires des navettes</h2>
+            <div class="navette">
+              <img src="/src/assets/2.png" alt="navette" width="50%"/>
+              <img src="/src/assets/3.png" alt="navette" width="50%"/>
+            </div>
+            <br>
+            <p>Plusieurs navettes feront l’aller retour entre le centre de Troyes et l’UTT tout au long de la soirée.</p>
+            <p>Des navettes seront disponibles (trajet UTT; Gillon; Beurnonville) aux horaires suivants : 
+              <em>(horaires à l'arrêt Beurnonville)</em>:
+              <br />
+              20h15 - 20h30 - 21h00 - 21h15 - 21h30 - 22h00 - 22h15 - 22h30 - 22h45 - 23h00 - 23h15 - 23h30 - 23h45
+              <br />
+              <br />
+              Des navettes seront disponibles (trajet UTT; Gillon; Beurnonville) aux horaires suivants{' '}
+              <em>(horaires au parking de l'UTT)</em>:
+              
+              1h00 - 1h30 - 2h00 - 2h30 - 3h00 - 3h30 - 3h45 - 4h00 - 4h15 - 4h30 - 4h45 - 5h00 - 5h15</p>
+        <h2>Sécurité</h2>
+        <p>Une palpation est organisée à l’entrée du site de Cassiopée.</p>
+            <p>
+              Il est interdit de se présenter en possession d’armes (y compris les armes d’autodéfense), d’objets
+              explosifs ou inflammables, de spray anti-agression, déodorants ou aérosols, d’objets tranchants ou
+              contondants, d’outils et objets métalliques, d’objets encombrants (casque de moto, antivols...), des
+              récipients (pleins ou vides), de la nourriture ou des boissons, drogue et stupéfiants.
+            </p>
+      </div>
+      <br>
+      <div class="box">
       <div style="width: 100%; display: flex; align-items: flex-end;">
         <h1 >Partenaires </h1>
+        <img src="/src/assets/graphisme/Planète anneau.png" alt="parcours" class="box-img-top"/>
+      <img src="/src/assets/graphisme/renard qui dort.png" alt="parcours" class="box-img-bottom"/>
       </div>
         <br>
         <div class="boxslide">
         <Slideshow/>
       </div>
+    </div>
       <br>
       <br>
       <div style="width: 100%; display: flex; align-items: flex-end;">
         <h1  >Equipe Cassiopée</h1>
       </div>
       <div id="trombi">
-        <img src="@\assets\petit-prince.jpg"  alt="Image" />
+        <img src="/public/stand/Trombinoscope Cassiopée 2024.png"  alt="Image" />
       </div>
+      
     </div>
     
-    
+  </div>   
   </body>
 </template>
 
 <style scoped>
+.title-soirée{
+  color: aliceblue;
+  margin-left: 5%;
+  text-align: center;
+}
+.navette{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+}
+.plan{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.box-img-top{
+  position: absolute;
+  width: 20%; 
+  top: -10%; 
+  right: -3%; 
+}
+.box-img-bottom{
+  position: absolute;
+   width: 20%; 
+   bottom: -10%; 
+   left: -3%; 
+   transform: rotateY(180deg);
+}
+.box{
+  position: relative;
+  background: rgba(0,0,0,0.2);  
+  background-size: cover;
+  padding-top: 5px; 
+  padding-left: 20%;
+  padding-right: 20%;
+  border-radius: 10px;
+}
+.box p{
+  color: aliceblue;
+}
+.box img{
+  align-items: center;
+}
+.box-light{
+  position: relative;
+  background-size: cover;
+  padding-top: 5px; 
+  padding-left: 20%;
+  padding-right: 20%;
+  border-radius: 10px;
+}
+
 .title{
   color: aliceblue;
   margin-left: 5%;
@@ -201,6 +384,7 @@ backTitle="L'instant Breton"></VerticalCard>
   gap: 0;
 }
 body {
+  overflow-x: hidden;
   background-color: #f8f9fa;
 }
 #aprem {
@@ -210,11 +394,11 @@ body {
   justify-content: start;
   align-items: center;
   min-height: 100vh;
-  background-color: #4452ad;
+  background: rgba(0,0,0,0);
 }
 #grad {
-background-image: linear-gradient(#4452ad, #252655);
-min-height: 15vh;
+background-image: linear-gradient(#3447c3cd, #252655);
+min-height: 25vh;
 }
 #soirée {
   padding: 10px;
@@ -223,8 +407,8 @@ min-height: 15vh;
   justify-content: start;
   align-items: center;
   min-height: 100vh;
-  
-  background-color: #252655;
+  background: rgba(0,0,0,0);
+
 }
 
 .boxslide{
@@ -232,6 +416,9 @@ min-height: 15vh;
   border-radius: 10px;
 }
 @media (max-width: 1000px) {  
+  .navette{
+    display: none;
+  }
   .text-container {
     width: 100%;
   }
@@ -242,6 +429,19 @@ min-height: 15vh;
   }
 }
 @media (max-width: 500px) {  
+  .box-img-bottom{
+    display: none;
+  }
+  .box-img-top{
+    display: none;
+  }
+  .box{
+  background : rgba(0,0,0,0.2);
+  padding-left: 10%;
+  padding-right: 10%;
+  border-radius: 10px;
+
+  }
   .text-container {
     width: 95%;
   }
@@ -258,10 +458,14 @@ min-height: 15vh;
     padding: 50px 0px;
   }
   .fliprow {
-        width: 300px;
-        gap: 0;
-        margin-bottom: 0;
-
+    width:100%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    gap: 0;
+    padding:10px;
+    margin-bottom: 10px;
+    
     }
 
 }

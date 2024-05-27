@@ -10,10 +10,10 @@
           <li class="nav-item dropdown active">
             <a class="nav-link dropdown-toggle" aria-haspopup="true" aria-expanded="true" data-toggle="dropdown" href="#">Après-midi</a>
             <div class="dropdown-menu">
-                <a href="#" class="dropdown-item">Les stands</a>
-                <a href="#" class="dropdown-item">Les animations</a>
-                <a href="#" class="dropdown-item">Restauration</a>
-                <a href="#" class="dropdown-item">Boissons</a>
+                <a href="#stand" class="dropdown-item">Les stands</a>
+                <a href="#animation" class="dropdown-item">Les animations</a>
+                <a href="#restauration" class="dropdown-item">Restauration</a>
+                <a href="#boisson" class="dropdown-item">Boissons</a>
 
             </div>
           </li>

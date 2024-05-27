@@ -59,6 +59,16 @@ const slides = [
         captionTitre: "Provexi",
         captionTxt: "Provexi"
     },
+    {
+        image: "/part/Logo affiche/UTT_couleur.png",
+        captionTitre: "UTT",
+        captionTxt: "
+        },
+    {
+        image: "/part/Logo affiche/Distributeur de boissons pour les professionnels.png",
+        captionTitre: "Charreau",
+        captionTxt: "Charreau"
+    }
 ];
 
 </script>
@@ -94,8 +104,14 @@ const slides = [
     position: absolute;
     top: 10%;
     width: 100%;
+    height: 100%;
     transition: none; 
 
+}
+.carousel-item {
+    width: 100%;
+    height: 100%;
+    margin: auto;
 }
 .carousel-item img {
     margin: auto;

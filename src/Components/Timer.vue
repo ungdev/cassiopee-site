@@ -13,7 +13,7 @@
             </div>
             <vue3-flip-countdown class="countdown"
             countdownSize="3rem" labelSize="1.2rem" labelColor="#FFFFFF" 
-            deadlineISO="2024-06-01T16:17:13.481Z" 
+            deadlineISO="2024-06-01T15:00:00.481Z" 
             :flipAnimation="false" mainColor="#FFFFFF" secondFlipColor="#ffffff"/>
         </div>      
     </div>
@@ -37,7 +37,7 @@ video {
   flex-direction: column;
   align-items : center;
   height: 60%;
-  text-shadow: 1px 1px 8px rgba(0,0,0,0.6);
+  text-shadow: 1px 1px 10px rgba(0,0,0,0.4);
 
 }
 .title{
